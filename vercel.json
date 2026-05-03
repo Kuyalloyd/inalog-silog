@@ -1,6 +1,7 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "framework": "vite",
+  "installCommand": "npm install --prefix laravel-react",
   "buildCommand": "npm run build",
   "outputDirectory": "laravel-react/dist",
   "rewrites": [
