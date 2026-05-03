@@ -1,4 +1,4 @@
-const CACHE_NAME = 'inalog-silog-v4';
+const CACHE_NAME = 'inalog-silog-v5';
 const APP_SHELL = [
     '/',
     '/site.webmanifest',
@@ -39,8 +39,11 @@ self.addEventListener('fetch', (event) => {
         event.respondWith(
             fetch(event.request)
                 .then((response) => {
-                    const responseClone = response.clone();
-                    caches.open(CACHE_NAME).then((cache) => cache.put('/', responseClone));
+                    if (response.ok) {
+                        const responseClone = response.clone();
+                        caches.open(CACHE_NAME).then((cache) => cache.put('/', responseClone));
+                    }
+
                     return response;
                 })
                 .catch(async () => {
