@@ -4,5 +4,8 @@
   "scripts": {
     "build": "npm --prefix laravel-react run build:vercel",
     "dev": "npm --prefix laravel-react run dev"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.105.1"
   }
 }
