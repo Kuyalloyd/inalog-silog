@@ -1,4 +1,4 @@
-const CACHE_NAME = 'inalog-silog-v3';
+const CACHE_NAME = 'inalog-silog-v4';
 const APP_SHELL = [
     '/',
     '/site.webmanifest',
