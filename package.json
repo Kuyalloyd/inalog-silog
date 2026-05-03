@@ -1,0 +1,8 @@
+{
+  "name": "inalog-silog-root",
+  "private": true,
+  "scripts": {
+    "build": "npm --prefix laravel-react run build",
+    "dev": "npm --prefix laravel-react run dev"
+  }
+}

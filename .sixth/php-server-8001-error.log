@@ -1,0 +1,1041 @@
+[Tue Apr 28 08:19:54 2026] PHP 8.2.12 Development Server (http://127.0.0.1:8001) started
+[Tue Apr 28 08:19:56 2026] 127.0.0.1:45212 Accepted
+[Tue Apr 28 08:19:56 2026] PHP Warning:  session_start(): open(C:\xampp\tmp\sess_8q935dj2rlco2k4b7u9co2i8af, O_RDWR) failed: Permission denied (13) in C:\Users\galit\Project-Taaza\index.php on line 2
+[Tue Apr 28 08:19:56 2026] PHP Warning:  session_start(): Failed to read session data: files (path: C:\xampp\tmp) in C:\Users\galit\Project-Taaza\index.php on line 2
+[Tue Apr 28 08:19:56 2026] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'enable_meessage' in 'field list' in C:\Users\galit\Project-Taaza\index.php:19
+Stack trace:
+#0 C:\Users\galit\Project-Taaza\index.php(19): mysqli_query(Object(mysqli), 'SELECT `id`, `m...')
+#1 {main}
+  thrown in C:\Users\galit\Project-Taaza\index.php on line 19
+[Tue Apr 28 08:19:56 2026] 127.0.0.1:45212 [200]: GET / - Uncaught mysqli_sql_exception: Unknown column 'enable_meessage' in 'field list' in C:\Users\galit\Project-Taaza\index.php:19
+Stack trace:
+#0 C:\Users\galit\Project-Taaza\index.php(19): mysqli_query(Object(mysqli), 'SELECT `id`, `m...')
+#1 {main}
+  thrown in C:\Users\galit\Project-Taaza\index.php on line 19
+[Tue Apr 28 08:19:56 2026] 127.0.0.1:45212 Closing
+[Tue Apr 28 08:22:44 2026] 127.0.0.1:56914 Accepted
+[Tue Apr 28 08:22:44 2026] PHP Warning:  session_start(): open(C:\xampp\tmp\sess_rli14b5m80aj3p72e7sagpf9b4, O_RDWR) failed: Permission denied (13) in C:\Users\galit\Project-Taaza\index.php on line 2
+[Tue Apr 28 08:22:44 2026] PHP Warning:  session_start(): Failed to read session data: files (path: C:\xampp\tmp) in C:\Users\galit\Project-Taaza\index.php on line 2
+[Tue Apr 28 08:22:44 2026] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'enable_meessage' in 'field list' in C:\Users\galit\Project-Taaza\index.php:19
+Stack trace:
+#0 C:\Users\galit\Project-Taaza\index.php(19): mysqli_query(Object(mysqli), 'SELECT `id`, `m...')
+#1 {main}
+  thrown in C:\Users\galit\Project-Taaza\index.php on line 19
+[Tue Apr 28 08:22:44 2026] 127.0.0.1:56914 [200]: GET / - Uncaught mysqli_sql_exception: Unknown column 'enable_meessage' in 'field list' in C:\Users\galit\Project-Taaza\index.php:19
+Stack trace:
+#0 C:\Users\galit\Project-Taaza\index.php(19): mysqli_query(Object(mysqli), 'SELECT `id`, `m...')
+#1 {main}
+  thrown in C:\Users\galit\Project-Taaza\index.php on line 19
+[Tue Apr 28 08:22:44 2026] 127.0.0.1:56914 Closing
+[Tue Apr 28 08:29:57 2026] 127.0.0.1:34409 Accepted
+[Tue Apr 28 08:29:57 2026] 127.0.0.1:16929 Accepted
+[Tue Apr 28 08:29:57 2026] 127.0.0.1:34409 [404]: GET /build/assets/app-DKkFSDFQ.css - No such file or directory
+[Tue Apr 28 08:29:57 2026] 127.0.0.1:46555 Accepted
+[Tue Apr 28 08:29:57 2026] 127.0.0.1:34409 Closing
+[Tue Apr 28 08:29:57 2026] 127.0.0.1:29294 Accepted
+[Tue Apr 28 08:29:57 2026] 127.0.0.1:16929 [404]: GET /build/assets/app-B3ODXipq.js - No such file or directory
+[Tue Apr 28 08:29:57 2026] 127.0.0.1:47855 Accepted
+[Tue Apr 28 08:29:57 2026] 127.0.0.1:46555 [404]: GET /build/assets/motion-L6wl1t02.js - No such file or directory
+[Tue Apr 28 08:29:57 2026] 127.0.0.1:29294 [404]: GET /build/assets/react-CmAYv5hP.js - No such file or directory
+[Tue Apr 28 08:29:57 2026] 127.0.0.1:16929 Closing
+[Tue Apr 28 08:29:57 2026] 127.0.0.1:47855 [404]: GET /build/assets/supabase-D56URzBO.js - No such file or directory
+[Tue Apr 28 08:29:57 2026] 127.0.0.1:46555 Closing
+[Tue Apr 28 08:29:57 2026] 127.0.0.1:29294 Closing
+[Tue Apr 28 08:29:57 2026] 127.0.0.1:47855 Closing
+[Tue Apr 28 08:29:59 2026] 127.0.0.1:42384 Accepted
+[Tue Apr 28 08:29:59 2026] 127.0.0.1:42384 [404]: GET /sw.js - No such file or directory
+[Tue Apr 28 08:29:59 2026] 127.0.0.1:42384 Closing
+[Tue Apr 28 08:30:35 2026] 127.0.0.1:2687 Accepted
+[Tue Apr 28 08:30:35 2026] 127.0.0.1:2688 Accepted
+[Tue Apr 28 08:30:35 2026] 127.0.0.1:2689 Accepted
+[Tue Apr 28 08:30:35 2026] PHP Warning:  session_start(): open(C:\xampp\tmp\sess_f4eh46csc29ga2lfhf6v1i9ggg, O_RDWR) failed: Permission denied (13) in C:\Users\galit\Project-Taaza\index.php on line 2
+[Tue Apr 28 08:30:35 2026] PHP Warning:  session_start(): Failed to read session data: files (path: C:\xampp\tmp) in C:\Users\galit\Project-Taaza\index.php on line 2
+[Tue Apr 28 08:30:35 2026] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'enable_meessage' in 'field list' in C:\Users\galit\Project-Taaza\index.php:19
+Stack trace:
+#0 C:\Users\galit\Project-Taaza\index.php(19): mysqli_query(Object(mysqli), 'SELECT `id`, `m...')
+#1 {main}
+  thrown in C:\Users\galit\Project-Taaza\index.php on line 19
+[Tue Apr 28 08:30:35 2026] 127.0.0.1:2688 [200]: GET / - Uncaught mysqli_sql_exception: Unknown column 'enable_meessage' in 'field list' in C:\Users\galit\Project-Taaza\index.php:19
+Stack trace:
+#0 C:\Users\galit\Project-Taaza\index.php(19): mysqli_query(Object(mysqli), 'SELECT `id`, `m...')
+#1 {main}
+  thrown in C:\Users\galit\Project-Taaza\index.php on line 19
+[Tue Apr 28 08:30:35 2026] 127.0.0.1:2688 Closing
+[Tue Apr 28 08:30:35 2026] 127.0.0.1:2687 [404]: GET /manifest.webmanifest - No such file or directory
+[Tue Apr 28 08:30:35 2026] 127.0.0.1:2689 [404]: GET /service-worker.js - No such file or directory
+[Tue Apr 28 08:30:35 2026] 127.0.0.1:2687 Closing
+[Tue Apr 28 08:30:35 2026] 127.0.0.1:2689 Closing
+[Tue Apr 28 08:31:18 2026] 127.0.0.1:16224 Accepted
+[Tue Apr 28 08:31:18 2026] 127.0.0.1:16224 [200]: GET /sw.js
+[Tue Apr 28 08:31:18 2026] 127.0.0.1:16224 Closing
+[Tue Apr 28 08:31:18 2026] 127.0.0.1:16225 Accepted
+[Tue Apr 28 08:31:18 2026] PHP Warning:  session_start(): open(C:\xampp\tmp\sess_6ld6qiuf3gaa2ccf7disfhs4u4, O_RDWR) failed: Permission denied (13) in C:\Users\galit\Project-Taaza\index.php on line 2
+[Tue Apr 28 08:31:18 2026] PHP Warning:  session_start(): Failed to read session data: files (path: C:\xampp\tmp) in C:\Users\galit\Project-Taaza\index.php on line 2
+[Tue Apr 28 08:31:18 2026] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'enable_meessage' in 'field list' in C:\Users\galit\Project-Taaza\index.php:19
+Stack trace:
+#0 C:\Users\galit\Project-Taaza\index.php(19): mysqli_query(Object(mysqli), 'SELECT `id`, `m...')
+#1 {main}
+  thrown in C:\Users\galit\Project-Taaza\index.php on line 19
+[Tue Apr 28 08:31:18 2026] 127.0.0.1:16225 [200]: GET / - Uncaught mysqli_sql_exception: Unknown column 'enable_meessage' in 'field list' in C:\Users\galit\Project-Taaza\index.php:19
+Stack trace:
+#0 C:\Users\galit\Project-Taaza\index.php(19): mysqli_query(Object(mysqli), 'SELECT `id`, `m...')
+#1 {main}
+  thrown in C:\Users\galit\Project-Taaza\index.php on line 19
+[Tue Apr 28 08:31:18 2026] 127.0.0.1:16225 Closing
+[Tue Apr 28 08:31:18 2026] 127.0.0.1:16227 Accepted
+[Tue Apr 28 08:31:18 2026] 127.0.0.1:16227 [200]: GET /service-worker.js
+[Tue Apr 28 08:31:18 2026] 127.0.0.1:16227 Closing
+[Tue Apr 28 08:32:21 2026] 127.0.0.1:24975 Accepted
+[Tue Apr 28 08:32:21 2026] 127.0.0.1:63032 Accepted
+[Tue Apr 28 08:32:23 2026] 127.0.0.1:24975 [200]: GET /sw.js
+[Tue Apr 28 08:32:23 2026] 127.0.0.1:24975 Closing
+[Tue Apr 28 08:35:53 2026] 127.0.0.1:63032 Closed without sending a request; it was probably just an unused speculative preconnection
+[Tue Apr 28 08:35:53 2026] 127.0.0.1:63032 Closing
+[Tue Apr 28 08:43:30 2026] 127.0.0.1:55777 Accepted
+[Tue Apr 28 08:43:30 2026] 127.0.0.1:9423 Accepted
+[Tue Apr 28 08:43:30 2026] PHP Warning:  session_start(): open(C:\xampp\tmp\sess_97kdglf2cdvfil2mff84h2ivir, O_RDWR) failed: Permission denied (13) in C:\Users\galit\Project-Taaza\index.php on line 2
+[Tue Apr 28 08:43:30 2026] PHP Warning:  session_start(): Failed to read session data: files (path: C:\xampp\tmp) in C:\Users\galit\Project-Taaza\index.php on line 2
+[Tue Apr 28 08:43:30 2026] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'enable_meessage' in 'field list' in C:\Users\galit\Project-Taaza\index.php:19
+Stack trace:
+#0 C:\Users\galit\Project-Taaza\index.php(19): mysqli_query(Object(mysqli), 'SELECT `id`, `m...')
+#1 {main}
+  thrown in C:\Users\galit\Project-Taaza\index.php on line 19
+[Tue Apr 28 08:43:30 2026] 127.0.0.1:55777 [200]: GET / - Uncaught mysqli_sql_exception: Unknown column 'enable_meessage' in 'field list' in C:\Users\galit\Project-Taaza\index.php:19
+Stack trace:
+#0 C:\Users\galit\Project-Taaza\index.php(19): mysqli_query(Object(mysqli), 'SELECT `id`, `m...')
+#1 {main}
+  thrown in C:\Users\galit\Project-Taaza\index.php on line 19
+[Tue Apr 28 08:43:30 2026] 127.0.0.1:55777 Closing
+[Tue Apr 28 08:43:30 2026] 127.0.0.1:9423 [200]: GET /assets/css/taaza.css
+[Tue Apr 28 08:43:30 2026] 127.0.0.1:9423 Closing
+[Tue Apr 28 08:43:30 2026] 127.0.0.1:64567 Accepted
+[Tue Apr 28 08:43:30 2026] 127.0.0.1:13897 Accepted
+[Tue Apr 28 08:43:30 2026] 127.0.0.1:62882 Accepted
+[Tue Apr 28 08:43:30 2026] 127.0.0.1:64567 [200]: GET /assets/css/media_query.css
+[Tue Apr 28 08:43:30 2026] 127.0.0.1:13897 [200]: GET /assets/images/logo.png
+[Tue Apr 28 08:43:30 2026] 127.0.0.1:62882 [200]: GET /assets/images/cart.svg
+[Tue Apr 28 08:43:30 2026] 127.0.0.1:64567 Closing
+[Tue Apr 28 08:43:30 2026] 127.0.0.1:13897 Closing
+[Tue Apr 28 08:43:30 2026] 127.0.0.1:62882 Closing
+[Tue Apr 28 08:43:30 2026] 127.0.0.1:53253 Accepted
+[Tue Apr 28 08:43:30 2026] 127.0.0.1:53253 [404]: GET /favicon.ico - No such file or directory
+[Tue Apr 28 08:43:30 2026] 127.0.0.1:53253 Closing
+[Tue Apr 28 08:43:33 2026] 127.0.0.1:36575 Accepted
+[Tue Apr 28 08:43:33 2026] 127.0.0.1:5828 Accepted
+[Tue Apr 28 08:43:33 2026] PHP Warning:  session_start(): open(C:\xampp\tmp\sess_97kdglf2cdvfil2mff84h2ivir, O_RDWR) failed: Permission denied (13) in C:\Users\galit\Project-Taaza\about.php on line 2
+[Tue Apr 28 08:43:33 2026] PHP Warning:  session_start(): Failed to read session data: files (path: C:\xampp\tmp) in C:\Users\galit\Project-Taaza\about.php on line 2
+[Tue Apr 28 08:43:33 2026] 127.0.0.1:36575 [200]: GET /about.php
+[Tue Apr 28 08:43:33 2026] 127.0.0.1:36575 Closing
+[Tue Apr 28 08:43:33 2026] 127.0.0.1:5828 [200]: GET /assets/css/taaza.css
+[Tue Apr 28 08:43:33 2026] 127.0.0.1:38654 Accepted
+[Tue Apr 28 08:43:33 2026] 127.0.0.1:44335 Accepted
+[Tue Apr 28 08:43:33 2026] 127.0.0.1:5828 Closing
+[Tue Apr 28 08:43:33 2026] 127.0.0.1:62456 Accepted
+[Tue Apr 28 08:43:33 2026] 127.0.0.1:6992 Accepted
+[Tue Apr 28 08:43:33 2026] 127.0.0.1:40678 Accepted
+[Tue Apr 28 08:43:33 2026] 127.0.0.1:38654 [200]: GET /assets/css/media_query.css
+[Tue Apr 28 08:43:33 2026] 127.0.0.1:44335 [200]: GET /assets/images/logo.png
+[Tue Apr 28 08:43:33 2026] 127.0.0.1:62456 [200]: GET /assets/images/about-image.jpg
+[Tue Apr 28 08:43:33 2026] 127.0.0.1:6992 [200]: GET /assets/images/circle.svg
+[Tue Apr 28 08:43:33 2026] 127.0.0.1:40678 [200]: GET /assets/images/cart.svg
+[Tue Apr 28 08:43:33 2026] 127.0.0.1:38547 Accepted
+[Tue Apr 28 08:43:33 2026] 127.0.0.1:38547 [200]: GET /assets/js/taaza.js
+[Tue Apr 28 08:43:33 2026] 127.0.0.1:38654 Closing
+[Tue Apr 28 08:43:33 2026] 127.0.0.1:1937 Accepted
+[Tue Apr 28 08:43:33 2026] 127.0.0.1:44335 Closing
+[Tue Apr 28 08:43:33 2026] 127.0.0.1:6992 Closing
+[Tue Apr 28 08:43:33 2026] 127.0.0.1:40678 Closing
+[Tue Apr 28 08:43:33 2026] 127.0.0.1:1937 [200]: GET /assets/images/ring.svg
+[Tue Apr 28 08:43:33 2026] 127.0.0.1:62456 Closing
+[Tue Apr 28 08:43:33 2026] 127.0.0.1:27062 Accepted
+[Tue Apr 28 08:43:33 2026] 127.0.0.1:38547 Closing
+[Tue Apr 28 08:43:33 2026] 127.0.0.1:9495 Accepted
+[Tue Apr 28 08:43:33 2026] 127.0.0.1:27062 [200]: GET /assets/images/about2.png
+[Tue Apr 28 08:43:33 2026] 127.0.0.1:65373 Accepted
+[Tue Apr 28 08:43:33 2026] 127.0.0.1:9495 [200]: GET /assets/images/about3.png
+[Tue Apr 28 08:43:33 2026] 127.0.0.1:1937 Closing
+[Tue Apr 28 08:43:33 2026] 127.0.0.1:65373 [200]: GET /assets/images/about4.png
+[Tue Apr 28 08:43:33 2026] 127.0.0.1:9495 Closing
+[Tue Apr 28 08:43:33 2026] 127.0.0.1:27062 Closing
+[Tue Apr 28 08:43:33 2026] 127.0.0.1:65373 Closing
+[Tue Apr 28 08:43:38 2026] 127.0.0.1:13717 Accepted
+[Tue Apr 28 08:43:38 2026] 127.0.0.1:49038 Accepted
+[Tue Apr 28 08:43:38 2026] PHP Warning:  session_start(): open(C:\xampp\tmp\sess_97kdglf2cdvfil2mff84h2ivir, O_RDWR) failed: Permission denied (13) in C:\Users\galit\Project-Taaza\login.php on line 3
+[Tue Apr 28 08:43:38 2026] PHP Warning:  session_start(): Failed to read session data: files (path: C:\xampp\tmp) in C:\Users\galit\Project-Taaza\login.php on line 3
+[Tue Apr 28 08:43:38 2026] 127.0.0.1:13717 [200]: GET /login.php
+[Tue Apr 28 08:43:38 2026] 127.0.0.1:13717 Closing
+[Tue Apr 28 08:43:38 2026] 127.0.0.1:49038 [200]: GET /assets/css/taaza.css
+[Tue Apr 28 08:43:38 2026] 127.0.0.1:44472 Accepted
+[Tue Apr 28 08:43:38 2026] 127.0.0.1:56935 Accepted
+[Tue Apr 28 08:43:38 2026] 127.0.0.1:44472 [200]: GET /assets/images/dialog-1.svg
+[Tue Apr 28 08:43:38 2026] 127.0.0.1:4581 Accepted
+[Tue Apr 28 08:43:38 2026] 127.0.0.1:56935 [200]: GET /assets/css/media_query.css
+[Tue Apr 28 08:43:38 2026] 127.0.0.1:49038 Closing
+[Tue Apr 28 08:43:38 2026] 127.0.0.1:1953 Accepted
+[Tue Apr 28 08:43:38 2026] 127.0.0.1:4581 [200]: GET /assets/images/dialog-2.svg
+[Tue Apr 28 08:43:38 2026] 127.0.0.1:1262 Accepted
+[Tue Apr 28 08:43:38 2026] 127.0.0.1:1953 [200]: GET /assets/images/logo.png
+[Tue Apr 28 08:43:38 2026] 127.0.0.1:44472 Closing
+[Tue Apr 28 08:43:38 2026] 127.0.0.1:26693 Accepted
+[Tue Apr 28 08:43:38 2026] 127.0.0.1:1262 [200]: GET /assets/images/cart.svg
+[Tue Apr 28 08:43:38 2026] 127.0.0.1:56935 Closing
+[Tue Apr 28 08:43:38 2026] 127.0.0.1:26693 [200]: GET /assets/images/circle.svg
+[Tue Apr 28 08:43:38 2026] 127.0.0.1:4581 Closing
+[Tue Apr 28 08:43:38 2026] 127.0.0.1:57496 Accepted
+[Tue Apr 28 08:43:38 2026] 127.0.0.1:1953 Closing
+[Tue Apr 28 08:43:38 2026] 127.0.0.1:57496 [200]: GET /assets/js/taaza.js
+[Tue Apr 28 08:43:38 2026] 127.0.0.1:1262 Closing
+[Tue Apr 28 08:43:38 2026] 127.0.0.1:33959 Accepted
+[Tue Apr 28 08:43:38 2026] 127.0.0.1:26693 Closing
+[Tue Apr 28 08:43:38 2026] 127.0.0.1:33959 [200]: GET /assets/images/ring.svg
+[Tue Apr 28 08:43:38 2026] 127.0.0.1:57496 Closing
+[Tue Apr 28 08:43:38 2026] 127.0.0.1:33959 Closing
+[Tue Apr 28 08:43:38 2026] 127.0.0.1:63324 Accepted
+[Tue Apr 28 08:43:38 2026] 127.0.0.1:35644 Accepted
+[Tue Apr 28 08:43:38 2026] 127.0.0.1:47753 Accepted
+[Tue Apr 28 08:43:38 2026] 127.0.0.1:63324 [200]: GET /assets/images/food1.png
+[Tue Apr 28 08:43:38 2026] 127.0.0.1:35644 [200]: GET /assets/images/food2.png
+[Tue Apr 28 08:43:38 2026] 127.0.0.1:47753 [200]: GET /assets/images/food3.png
+[Tue Apr 28 08:43:38 2026] 127.0.0.1:63324 Closing
+[Tue Apr 28 08:43:38 2026] 127.0.0.1:35644 Closing
+[Tue Apr 28 08:43:38 2026] 127.0.0.1:47753 Closing
+[Tue Apr 28 08:43:40 2026] 127.0.0.1:18524 Accepted
+[Tue Apr 28 08:43:40 2026] PHP Warning:  session_start(): open(C:\xampp\tmp\sess_97kdglf2cdvfil2mff84h2ivir, O_RDWR) failed: Permission denied (13) in C:\Users\galit\Project-Taaza\index.php on line 2
+[Tue Apr 28 08:43:40 2026] PHP Warning:  session_start(): Failed to read session data: files (path: C:\xampp\tmp) in C:\Users\galit\Project-Taaza\index.php on line 2
+[Tue Apr 28 08:43:40 2026] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'enable_meessage' in 'field list' in C:\Users\galit\Project-Taaza\index.php:19
+Stack trace:
+#0 C:\Users\galit\Project-Taaza\index.php(19): mysqli_query(Object(mysqli), 'SELECT `id`, `m...')
+#1 {main}
+  thrown in C:\Users\galit\Project-Taaza\index.php on line 19
+[Tue Apr 28 08:43:40 2026] 127.0.0.1:18524 [200]: GET /index.php - Uncaught mysqli_sql_exception: Unknown column 'enable_meessage' in 'field list' in C:\Users\galit\Project-Taaza\index.php:19
+Stack trace:
+#0 C:\Users\galit\Project-Taaza\index.php(19): mysqli_query(Object(mysqli), 'SELECT `id`, `m...')
+#1 {main}
+  thrown in C:\Users\galit\Project-Taaza\index.php on line 19
+[Tue Apr 28 08:43:40 2026] 127.0.0.1:18524 Closing
+[Tue Apr 28 08:43:40 2026] 127.0.0.1:56057 Accepted
+[Tue Apr 28 08:43:40 2026] 127.0.0.1:56057 [200]: GET /assets/css/taaza.css
+[Tue Apr 28 08:43:40 2026] 127.0.0.1:56057 Closing
+[Tue Apr 28 08:43:40 2026] 127.0.0.1:28627 Accepted
+[Tue Apr 28 08:43:40 2026] 127.0.0.1:30213 Accepted
+[Tue Apr 28 08:43:40 2026] 127.0.0.1:43150 Accepted
+[Tue Apr 28 08:43:40 2026] 127.0.0.1:28627 [200]: GET /assets/css/media_query.css
+[Tue Apr 28 08:43:40 2026] 127.0.0.1:30213 [200]: GET /assets/images/logo.png
+[Tue Apr 28 08:43:40 2026] 127.0.0.1:43150 [200]: GET /assets/images/cart.svg
+[Tue Apr 28 08:43:40 2026] 127.0.0.1:28627 Closing
+[Tue Apr 28 08:43:40 2026] 127.0.0.1:30213 Closing
+[Tue Apr 28 08:43:40 2026] 127.0.0.1:43150 Closing
+[Tue Apr 28 08:44:58 2026] 127.0.0.1:43073 Accepted
+[Tue Apr 28 08:44:58 2026] PHP Warning:  session_start(): open(C:\xampp\tmp\sess_3g3anjsljcapmatt5fepu3n612, O_RDWR) failed: Permission denied (13) in C:\Users\galit\Project-Taaza\index.php on line 2
+[Tue Apr 28 08:44:58 2026] PHP Warning:  session_start(): Failed to read session data: files (path: C:\xampp\tmp) in C:\Users\galit\Project-Taaza\index.php on line 2
+[Tue Apr 28 08:44:58 2026] PHP Warning:  Trying to access array offset on value of type null in C:\Users\galit\Project-Taaza\index.php on line 25
+[Tue Apr 28 08:44:58 2026] 127.0.0.1:43073 [200]: GET /
+[Tue Apr 28 08:44:58 2026] 127.0.0.1:43073 Closing
+[Tue Apr 28 08:56:20 2026] 127.0.0.1:52463 Accepted
+[Tue Apr 28 08:56:20 2026] PHP Warning:  session_start(): open(C:\xampp\tmp\sess_pfjlhlmm8dpdsj2bb6i2ec1h5d, O_RDWR) failed: Permission denied (13) in C:\Users\galit\Project-Taaza\index.php on line 2
+[Tue Apr 28 08:56:20 2026] PHP Warning:  session_start(): Failed to read session data: files (path: C:\xampp\tmp) in C:\Users\galit\Project-Taaza\index.php on line 2
+[Tue Apr 28 08:56:20 2026] PHP Warning:  Trying to access array offset on value of type null in C:\Users\galit\Project-Taaza\index.php on line 25
+[Tue Apr 28 08:56:20 2026] 127.0.0.1:52463 [200]: GET /
+[Tue Apr 28 08:56:20 2026] 127.0.0.1:52463 Closing
+[Tue Apr 28 08:57:02 2026] 127.0.0.1:55668 Accepted
+[Tue Apr 28 08:57:02 2026] 127.0.0.1:59783 Accepted
+[Tue Apr 28 08:57:02 2026] PHP Warning:  session_start(): open(C:\xampp\tmp\sess_97kdglf2cdvfil2mff84h2ivir, O_RDWR) failed: Permission denied (13) in C:\Users\galit\Project-Taaza\index.php on line 2
+[Tue Apr 28 08:57:02 2026] PHP Warning:  session_start(): Failed to read session data: files (path: C:\xampp\tmp) in C:\Users\galit\Project-Taaza\index.php on line 2
+[Tue Apr 28 08:57:02 2026] PHP Warning:  Trying to access array offset on value of type null in C:\Users\galit\Project-Taaza\index.php on line 25
+[Tue Apr 28 08:57:02 2026] 127.0.0.1:55668 [200]: GET /
+[Tue Apr 28 08:57:02 2026] 127.0.0.1:55668 Closing
+[Tue Apr 28 08:57:02 2026] 127.0.0.1:59783 [200]: GET /assets/css/taaza.css
+[Tue Apr 28 08:57:02 2026] 127.0.0.1:1595 Accepted
+[Tue Apr 28 08:57:02 2026] 127.0.0.1:38213 Accepted
+[Tue Apr 28 08:57:02 2026] 127.0.0.1:61505 Accepted
+[Tue Apr 28 08:57:02 2026] 127.0.0.1:59783 Closing
+[Tue Apr 28 08:57:02 2026] 127.0.0.1:22332 Accepted
+[Tue Apr 28 08:57:02 2026] 127.0.0.1:61374 Accepted
+[Tue Apr 28 08:57:02 2026] 127.0.0.1:1595 [200]: GET /assets/css/media_query.css
+[Tue Apr 28 08:57:02 2026] 127.0.0.1:38213 [200]: GET /assets/images/menu.svg
+[Tue Apr 28 08:57:02 2026] 127.0.0.1:61505 [200]: GET /assets/images/arrow.svg
+[Tue Apr 28 08:57:02 2026] 127.0.0.1:22332 [200]: GET /assets/images/logo.png
+[Tue Apr 28 08:57:02 2026] 127.0.0.1:61374 [200]: GET /assets/images/cart.svg
+[Tue Apr 28 08:57:02 2026] 127.0.0.1:1595 Closing
+[Tue Apr 28 08:57:02 2026] 127.0.0.1:38213 Closing
+[Tue Apr 28 08:57:02 2026] 127.0.0.1:61505 Closing
+[Tue Apr 28 08:57:02 2026] 127.0.0.1:22332 Closing
+[Tue Apr 28 08:57:02 2026] 127.0.0.1:61374 Closing
+[Tue Apr 28 08:57:02 2026] 127.0.0.1:26500 Accepted
+[Tue Apr 28 08:57:02 2026] 127.0.0.1:26500 [200]: GET /assets/images/dialog-1.svg
+[Tue Apr 28 08:57:02 2026] 127.0.0.1:26500 Closing
+[Tue Apr 28 08:57:02 2026] 127.0.0.1:50060 Accepted
+[Tue Apr 28 08:57:02 2026] 127.0.0.1:1454 Accepted
+[Tue Apr 28 08:57:02 2026] 127.0.0.1:7941 Accepted
+[Tue Apr 28 08:57:02 2026] 127.0.0.1:20107 Accepted
+[Tue Apr 28 08:57:02 2026] 127.0.0.1:64064 Accepted
+[Tue Apr 28 08:57:02 2026] 127.0.0.1:50060 [200]: GET /assets/js/taaza.js
+[Tue Apr 28 08:57:02 2026] 127.0.0.1:1454 [200]: GET /assets/images/dialog-2.svg
+[Tue Apr 28 08:57:02 2026] 127.0.0.1:7941 [200]: GET /assets/images/circle.svg
+[Tue Apr 28 08:57:02 2026] 127.0.0.1:20107 [200]: GET /assets/images/ring.svg
+[Tue Apr 28 08:57:02 2026] 127.0.0.1:64064 [200]: GET /assets/images/about-image.jpg
+[Tue Apr 28 08:57:02 2026] 127.0.0.1:55048 Accepted
+[Tue Apr 28 08:57:02 2026] 127.0.0.1:55048 [200]: GET /assets/images/signature.png
+[Tue Apr 28 08:57:02 2026] 127.0.0.1:50060 Closing
+[Tue Apr 28 08:57:02 2026] 127.0.0.1:1454 Closing
+[Tue Apr 28 08:57:02 2026] 127.0.0.1:7941 Closing
+[Tue Apr 28 08:57:02 2026] 127.0.0.1:20107 Closing
+[Tue Apr 28 08:57:02 2026] 127.0.0.1:64064 Closing
+[Tue Apr 28 08:57:02 2026] 127.0.0.1:55048 Closing
+[Tue Apr 28 08:57:02 2026] 127.0.0.1:49668 Accepted
+[Tue Apr 28 08:57:02 2026] 127.0.0.1:13209 Accepted
+[Tue Apr 28 08:57:02 2026] 127.0.0.1:49668 [200]: GET /assets/images/food1.png
+[Tue Apr 28 08:57:02 2026] 127.0.0.1:13209 [200]: GET /assets/images/food2.png
+[Tue Apr 28 08:57:02 2026] 127.0.0.1:23390 Accepted
+[Tue Apr 28 08:57:02 2026] 127.0.0.1:23390 [200]: GET /assets/images/food3.png
+[Tue Apr 28 08:57:02 2026] 127.0.0.1:49668 Closing
+[Tue Apr 28 08:57:02 2026] 127.0.0.1:13209 Closing
+[Tue Apr 28 08:57:02 2026] 127.0.0.1:23390 Closing
+[Tue Apr 28 08:57:05 2026] 127.0.0.1:6200 Accepted
+[Tue Apr 28 08:57:05 2026] 127.0.0.1:57025 Accepted
+[Tue Apr 28 08:57:05 2026] 127.0.0.1:46025 Accepted
+[Tue Apr 28 08:57:05 2026] 127.0.0.1:6200 [200]: GET /assets/images/menu1.jpg
+[Tue Apr 28 08:57:05 2026] 127.0.0.1:57025 [200]: GET /assets/images/menu2.jpg
+[Tue Apr 28 08:57:05 2026] 127.0.0.1:46025 [200]: GET /assets/images/menu3.jpg
+[Tue Apr 28 08:57:05 2026] 127.0.0.1:6200 Closing
+[Tue Apr 28 08:57:05 2026] 127.0.0.1:57025 Closing
+[Tue Apr 28 08:57:05 2026] 127.0.0.1:46025 Closing
+[Tue Apr 28 08:57:05 2026] 127.0.0.1:12692 Accepted
+[Tue Apr 28 08:57:05 2026] 127.0.0.1:61447 Accepted
+[Tue Apr 28 08:57:05 2026] 127.0.0.1:12692 [200]: GET /assets/images/menu4.jpg
+[Tue Apr 28 08:57:05 2026] 127.0.0.1:1095 Accepted
+[Tue Apr 28 08:57:05 2026] 127.0.0.1:61447 [200]: GET /assets/images/menu5.jpg
+[Tue Apr 28 08:57:05 2026] 127.0.0.1:1095 [200]: GET /assets/images/menu6.jpg
+[Tue Apr 28 08:57:05 2026] 127.0.0.1:61447 Closing
+[Tue Apr 28 08:57:05 2026] 127.0.0.1:12692 Closing
+[Tue Apr 28 08:57:05 2026] 127.0.0.1:1095 Closing
+[Tue Apr 28 08:58:25 2026] 127.0.0.1:2425 Accepted
+[Tue Apr 28 08:58:25 2026] PHP Warning:  session_start(): open(C:\xampp\tmp\sess_vvf2272vtb2r0a8ginggmn1dot, O_RDWR) failed: Permission denied (13) in C:\Users\galit\Project-Taaza\index.php on line 2
+[Tue Apr 28 08:58:25 2026] PHP Warning:  session_start(): Failed to read session data: files (path: C:\xampp\tmp) in C:\Users\galit\Project-Taaza\index.php on line 2
+[Tue Apr 28 08:58:25 2026] 127.0.0.1:2425 [200]: GET /
+[Tue Apr 28 08:58:25 2026] 127.0.0.1:2425 Closing
+[Tue Apr 28 09:06:40 2026] 127.0.0.1:3224 Accepted
+[Tue Apr 28 09:06:40 2026] 127.0.0.1:20176 Accepted
+[Tue Apr 28 09:06:40 2026] PHP Warning:  session_start(): open(C:\xampp\tmp\sess_97kdglf2cdvfil2mff84h2ivir, O_RDWR) failed: Permission denied (13) in C:\Users\galit\Project-Taaza\index.php on line 2
+[Tue Apr 28 09:06:40 2026] PHP Warning:  session_start(): Failed to read session data: files (path: C:\xampp\tmp) in C:\Users\galit\Project-Taaza\index.php on line 2
+[Tue Apr 28 09:06:40 2026] 127.0.0.1:3224 [200]: GET /
+[Tue Apr 28 09:06:40 2026] 127.0.0.1:3224 Closing
+[Tue Apr 28 09:06:40 2026] 127.0.0.1:20176 [200]: GET /assets/css/taaza.css
+[Tue Apr 28 09:06:40 2026] 127.0.0.1:42812 Accepted
+[Tue Apr 28 09:06:40 2026] 127.0.0.1:42812 [200]: GET /assets/css/media_query.css
+[Tue Apr 28 09:06:40 2026] 127.0.0.1:20176 Closing
+[Tue Apr 28 09:06:40 2026] 127.0.0.1:42812 Closing
+[Tue Apr 28 09:06:40 2026] 127.0.0.1:46427 Accepted
+[Tue Apr 28 09:06:40 2026] 127.0.0.1:46427 [200]: GET /assets/images/logo.png
+[Tue Apr 28 09:06:40 2026] 127.0.0.1:63697 Accepted
+[Tue Apr 28 09:06:40 2026] 127.0.0.1:26092 Accepted
+[Tue Apr 28 09:06:40 2026] 127.0.0.1:46427 Closing
+[Tue Apr 28 09:06:40 2026] 127.0.0.1:38626 Accepted
+[Tue Apr 28 09:06:40 2026] 127.0.0.1:63697 [200]: GET /assets/images/cart.svg
+[Tue Apr 28 09:06:40 2026] 127.0.0.1:26092 [200]: GET /assets/images/menu.svg
+[Tue Apr 28 09:06:40 2026] 127.0.0.1:38626 [200]: GET /assets/images/arrow.svg
+[Tue Apr 28 09:06:40 2026] 127.0.0.1:63697 Closing
+[Tue Apr 28 09:06:40 2026] 127.0.0.1:26092 Closing
+[Tue Apr 28 09:06:40 2026] 127.0.0.1:38626 Closing
+[Tue Apr 28 09:06:40 2026] 127.0.0.1:11508 Accepted
+[Tue Apr 28 09:06:40 2026] 127.0.0.1:11508 [200]: GET /assets/images/dialog-1.svg
+[Tue Apr 28 09:06:40 2026] 127.0.0.1:11508 Closing
+[Tue Apr 28 09:06:40 2026] 127.0.0.1:63786 Accepted
+[Tue Apr 28 09:06:40 2026] 127.0.0.1:2311 Accepted
+[Tue Apr 28 09:06:40 2026] 127.0.0.1:63786 [200]: GET /assets/js/taaza.js
+[Tue Apr 28 09:06:40 2026] 127.0.0.1:63786 Closing
+[Tue Apr 28 09:06:40 2026] 127.0.0.1:2311 [200]: GET /assets/images/dialog-2.svg
+[Tue Apr 28 09:06:40 2026] 127.0.0.1:2311 Closing
+[Tue Apr 28 09:06:40 2026] 127.0.0.1:61694 Accepted
+[Tue Apr 28 09:06:40 2026] 127.0.0.1:61694 [200]: GET /assets/images/circle.svg
+[Tue Apr 28 09:06:40 2026] 127.0.0.1:28054 Accepted
+[Tue Apr 28 09:06:40 2026] 127.0.0.1:61694 Closing
+[Tue Apr 28 09:06:40 2026] 127.0.0.1:38153 Accepted
+[Tue Apr 28 09:06:40 2026] 127.0.0.1:28054 [200]: GET /assets/images/ring.svg
+[Tue Apr 28 09:06:40 2026] 127.0.0.1:38153 [200]: GET /assets/images/about-image.jpg
+[Tue Apr 28 09:06:40 2026] 127.0.0.1:28054 Closing
+[Tue Apr 28 09:06:40 2026] 127.0.0.1:38153 Closing
+[Tue Apr 28 09:06:40 2026] 127.0.0.1:3448 Accepted
+[Tue Apr 28 09:06:40 2026] 127.0.0.1:3448 [200]: GET /assets/images/signature.png
+[Tue Apr 28 09:06:40 2026] 127.0.0.1:3448 Closing
+[Tue Apr 28 09:06:40 2026] 127.0.0.1:53135 Accepted
+[Tue Apr 28 09:06:40 2026] 127.0.0.1:54323 Accepted
+[Tue Apr 28 09:06:40 2026] 127.0.0.1:63435 Accepted
+[Tue Apr 28 09:06:40 2026] 127.0.0.1:53135 [200]: GET /assets/images/food1.png
+[Tue Apr 28 09:06:40 2026] 127.0.0.1:54323 [200]: GET /assets/images/food2.png
+[Tue Apr 28 09:06:40 2026] 127.0.0.1:63435 [200]: GET /assets/images/food3.png
+[Tue Apr 28 09:06:40 2026] 127.0.0.1:53135 Closing
+[Tue Apr 28 09:06:40 2026] 127.0.0.1:54323 Closing
+[Tue Apr 28 09:06:40 2026] 127.0.0.1:63435 Closing
+[Tue Apr 28 09:06:44 2026] 127.0.0.1:59102 Accepted
+[Tue Apr 28 09:06:44 2026] 127.0.0.1:18932 Accepted
+[Tue Apr 28 09:06:44 2026] 127.0.0.1:26404 Accepted
+[Tue Apr 28 09:06:44 2026] 127.0.0.1:59102 [200]: GET /assets/images/menu1.jpg
+[Tue Apr 28 09:06:44 2026] 127.0.0.1:18932 [200]: GET /assets/images/menu2.jpg
+[Tue Apr 28 09:06:44 2026] 127.0.0.1:26404 [200]: GET /assets/images/menu3.jpg
+[Tue Apr 28 09:06:44 2026] 127.0.0.1:59102 Closing
+[Tue Apr 28 09:06:44 2026] 127.0.0.1:18932 Closing
+[Tue Apr 28 09:06:44 2026] 127.0.0.1:26404 Closing
+[Tue Apr 28 09:06:44 2026] 127.0.0.1:63101 Accepted
+[Tue Apr 28 09:06:44 2026] 127.0.0.1:63101 [200]: GET /assets/images/menu4.jpg
+[Tue Apr 28 09:06:44 2026] 127.0.0.1:18004 Accepted
+[Tue Apr 28 09:06:44 2026] 127.0.0.1:53711 Accepted
+[Tue Apr 28 09:06:44 2026] 127.0.0.1:18004 [200]: GET /assets/images/menu5.jpg
+[Tue Apr 28 09:06:44 2026] 127.0.0.1:53711 [200]: GET /assets/images/menu6.jpg
+[Tue Apr 28 09:06:44 2026] 127.0.0.1:18004 Closing
+[Tue Apr 28 09:06:44 2026] 127.0.0.1:63101 Closing
+[Tue Apr 28 09:06:44 2026] 127.0.0.1:53711 Closing
+[Tue Apr 28 09:06:44 2026] 127.0.0.1:50303 Accepted
+[Tue Apr 28 09:06:44 2026] 127.0.0.1:50303 [200]: GET /assets/images/testimonials1.jpg
+[Tue Apr 28 09:06:44 2026] 127.0.0.1:36814 Accepted
+[Tue Apr 28 09:06:44 2026] 127.0.0.1:36814 [200]: GET /assets/images/testimonials2.jpg
+[Tue Apr 28 09:06:44 2026] 127.0.0.1:50303 Closing
+[Tue Apr 28 09:06:44 2026] 127.0.0.1:36814 Closing
+[Tue Apr 28 09:06:57 2026] 127.0.0.1:52324 Accepted
+[Tue Apr 28 09:06:58 2026] 127.0.0.1:43210 Accepted
+[Tue Apr 28 09:06:58 2026] PHP Warning:  session_start(): open(C:\xampp\tmp\sess_97kdglf2cdvfil2mff84h2ivir, O_RDWR) failed: Permission denied (13) in C:\Users\galit\Project-Taaza\services.php on line 2
+[Tue Apr 28 09:06:58 2026] PHP Warning:  session_start(): Failed to read session data: files (path: C:\xampp\tmp) in C:\Users\galit\Project-Taaza\services.php on line 2
+[Tue Apr 28 09:06:58 2026] 127.0.0.1:52324 [200]: GET /services.php
+[Tue Apr 28 09:06:58 2026] 127.0.0.1:52324 Closing
+[Tue Apr 28 09:06:58 2026] 127.0.0.1:43210 [200]: GET /assets/css/taaza.css
+[Tue Apr 28 09:06:58 2026] 127.0.0.1:43210 Closing
+[Tue Apr 28 09:06:58 2026] 127.0.0.1:8488 Accepted
+[Tue Apr 28 09:06:58 2026] 127.0.0.1:35009 Accepted
+[Tue Apr 28 09:06:58 2026] 127.0.0.1:6169 Accepted
+[Tue Apr 28 09:06:58 2026] 127.0.0.1:33296 Accepted
+[Tue Apr 28 09:06:58 2026] 127.0.0.1:15405 Accepted
+[Tue Apr 28 09:06:58 2026] 127.0.0.1:8488 [200]: GET /assets/css/media_query.css
+[Tue Apr 28 09:06:58 2026] 127.0.0.1:35009 [200]: GET /assets/images/service1.png
+[Tue Apr 28 09:06:58 2026] 127.0.0.1:6169 [200]: GET /assets/images/service2.png
+[Tue Apr 28 09:06:58 2026] 127.0.0.1:33296 [200]: GET /assets/images/logo.png
+[Tue Apr 28 09:06:58 2026] 127.0.0.1:15405 [200]: GET /assets/images/cart.svg
+[Tue Apr 28 09:06:58 2026] 127.0.0.1:27870 Accepted
+[Tue Apr 28 09:06:58 2026] 127.0.0.1:8488 Closing
+[Tue Apr 28 09:06:58 2026] 127.0.0.1:27870 [200]: GET /assets/images/service3.png
+[Tue Apr 28 09:06:58 2026] 127.0.0.1:35009 Closing
+[Tue Apr 28 09:06:58 2026] 127.0.0.1:33296 Closing
+[Tue Apr 28 09:06:58 2026] 127.0.0.1:15405 Closing
+[Tue Apr 28 09:06:58 2026] 127.0.0.1:6169 Closing
+[Tue Apr 28 09:06:58 2026] 127.0.0.1:27870 Closing
+[Tue Apr 28 09:06:58 2026] 127.0.0.1:45553 Accepted
+[Tue Apr 28 09:06:58 2026] 127.0.0.1:42144 Accepted
+[Tue Apr 28 09:06:58 2026] 127.0.0.1:44514 Accepted
+[Tue Apr 28 09:06:58 2026] 127.0.0.1:45553 [200]: GET /assets/js/taaza.js
+[Tue Apr 28 09:06:58 2026] 127.0.0.1:42144 [200]: GET /assets/images/service4.png
+[Tue Apr 28 09:06:58 2026] 127.0.0.1:44514 [200]: GET /assets/images/service5.png
+[Tue Apr 28 09:06:58 2026] 127.0.0.1:45553 Closing
+[Tue Apr 28 09:06:58 2026] 127.0.0.1:42144 Closing
+[Tue Apr 28 09:06:58 2026] 127.0.0.1:44514 Closing
+[Tue Apr 28 09:07:00 2026] 127.0.0.1:2738 Accepted
+[Tue Apr 28 09:07:00 2026] 127.0.0.1:43447 Accepted
+[Tue Apr 28 09:07:00 2026] PHP Warning:  session_start(): open(C:\xampp\tmp\sess_97kdglf2cdvfil2mff84h2ivir, O_RDWR) failed: Permission denied (13) in C:\Users\galit\Project-Taaza\index.php on line 2
+[Tue Apr 28 09:07:00 2026] PHP Warning:  session_start(): Failed to read session data: files (path: C:\xampp\tmp) in C:\Users\galit\Project-Taaza\index.php on line 2
+[Tue Apr 28 09:07:00 2026] 127.0.0.1:2738 [200]: GET /index.php
+[Tue Apr 28 09:07:00 2026] 127.0.0.1:2738 Closing
+[Tue Apr 28 09:07:00 2026] 127.0.0.1:43447 [200]: GET /assets/css/taaza.css
+[Tue Apr 28 09:07:00 2026] 127.0.0.1:1711 Accepted
+[Tue Apr 28 09:07:00 2026] 127.0.0.1:39666 Accepted
+[Tue Apr 28 09:07:00 2026] 127.0.0.1:1711 [200]: GET /assets/css/media_query.css
+[Tue Apr 28 09:07:00 2026] 127.0.0.1:39666 [200]: GET /assets/images/logo.png
+[Tue Apr 28 09:07:00 2026] 127.0.0.1:43447 Closing
+[Tue Apr 28 09:07:00 2026] 127.0.0.1:47206 Accepted
+[Tue Apr 28 09:07:00 2026] 127.0.0.1:13942 Accepted
+[Tue Apr 28 09:07:00 2026] 127.0.0.1:47206 [200]: GET /assets/images/cart.svg
+[Tue Apr 28 09:07:00 2026] 127.0.0.1:64406 Accepted
+[Tue Apr 28 09:07:00 2026] 127.0.0.1:13942 [200]: GET /assets/images/menu.svg
+[Tue Apr 28 09:07:00 2026] 127.0.0.1:1711 Closing
+[Tue Apr 28 09:07:00 2026] 127.0.0.1:39666 Closing
+[Tue Apr 28 09:07:00 2026] 127.0.0.1:64406 [200]: GET /assets/images/arrow.svg
+[Tue Apr 28 09:07:00 2026] 127.0.0.1:47206 Closing
+[Tue Apr 28 09:07:00 2026] 127.0.0.1:13942 Closing
+[Tue Apr 28 09:07:00 2026] 127.0.0.1:45198 Accepted
+[Tue Apr 28 09:07:00 2026] 127.0.0.1:64406 Closing
+[Tue Apr 28 09:07:00 2026] 127.0.0.1:45198 [200]: GET /assets/images/dialog-1.svg
+[Tue Apr 28 09:07:00 2026] 127.0.0.1:45198 Closing
+[Tue Apr 28 09:07:00 2026] 127.0.0.1:6783 Accepted
+[Tue Apr 28 09:07:00 2026] 127.0.0.1:38185 Accepted
+[Tue Apr 28 09:07:00 2026] 127.0.0.1:6783 [200]: GET /assets/js/taaza.js
+[Tue Apr 28 09:07:00 2026] 127.0.0.1:38185 [200]: GET /assets/images/dialog-2.svg
+[Tue Apr 28 09:07:00 2026] 127.0.0.1:6783 Closing
+[Tue Apr 28 09:07:00 2026] 127.0.0.1:38185 Closing
+[Tue Apr 28 09:07:00 2026] 127.0.0.1:4691 Accepted
+[Tue Apr 28 09:07:00 2026] 127.0.0.1:4691 [200]: GET /assets/images/circle.svg
+[Tue Apr 28 09:07:00 2026] 127.0.0.1:64215 Accepted
+[Tue Apr 28 09:07:00 2026] 127.0.0.1:17519 Accepted
+[Tue Apr 28 09:07:00 2026] 127.0.0.1:64215 [200]: GET /assets/images/ring.svg
+[Tue Apr 28 09:07:00 2026] 127.0.0.1:17519 [200]: GET /assets/images/about-image.jpg
+[Tue Apr 28 09:07:00 2026] 127.0.0.1:4691 Closing
+[Tue Apr 28 09:07:00 2026] 127.0.0.1:45709 Accepted
+[Tue Apr 28 09:07:00 2026] 127.0.0.1:45709 [200]: GET /assets/images/signature.png
+[Tue Apr 28 09:07:00 2026] 127.0.0.1:64215 Closing
+[Tue Apr 28 09:07:00 2026] 127.0.0.1:17519 Closing
+[Tue Apr 28 09:07:00 2026] 127.0.0.1:45709 Closing
+[Tue Apr 28 09:07:00 2026] 127.0.0.1:49287 Accepted
+[Tue Apr 28 09:07:00 2026] 127.0.0.1:21430 Accepted
+[Tue Apr 28 09:07:00 2026] 127.0.0.1:49287 [200]: GET /assets/images/food1.png
+[Tue Apr 28 09:07:00 2026] 127.0.0.1:21430 [200]: GET /assets/images/food2.png
+[Tue Apr 28 09:07:00 2026] 127.0.0.1:21634 Accepted
+[Tue Apr 28 09:07:00 2026] 127.0.0.1:21634 [200]: GET /assets/images/food3.png
+[Tue Apr 28 09:07:00 2026] 127.0.0.1:49287 Closing
+[Tue Apr 28 09:07:00 2026] 127.0.0.1:21430 Closing
+[Tue Apr 28 09:07:00 2026] 127.0.0.1:21634 Closing
+[Tue Apr 28 09:07:01 2026] 127.0.0.1:51588 Accepted
+[Tue Apr 28 09:07:01 2026] 127.0.0.1:42530 Accepted
+[Tue Apr 28 09:07:01 2026] PHP Warning:  session_start(): open(C:\xampp\tmp\sess_97kdglf2cdvfil2mff84h2ivir, O_RDWR) failed: Permission denied (13) in C:\Users\galit\Project-Taaza\about.php on line 2
+[Tue Apr 28 09:07:01 2026] PHP Warning:  session_start(): Failed to read session data: files (path: C:\xampp\tmp) in C:\Users\galit\Project-Taaza\about.php on line 2
+[Tue Apr 28 09:07:01 2026] 127.0.0.1:51588 [200]: GET /about.php
+[Tue Apr 28 09:07:01 2026] 127.0.0.1:51588 Closing
+[Tue Apr 28 09:07:01 2026] 127.0.0.1:42530 [200]: GET /assets/css/taaza.css
+[Tue Apr 28 09:07:01 2026] 127.0.0.1:17959 Accepted
+[Tue Apr 28 09:07:01 2026] 127.0.0.1:1818 Accepted
+[Tue Apr 28 09:07:01 2026] 127.0.0.1:42530 Closing
+[Tue Apr 28 09:07:01 2026] 127.0.0.1:34369 Accepted
+[Tue Apr 28 09:07:01 2026] 127.0.0.1:17959 [200]: GET /assets/css/media_query.css
+[Tue Apr 28 09:07:01 2026] 127.0.0.1:1818 [200]: GET /assets/images/logo.png
+[Tue Apr 28 09:07:01 2026] 127.0.0.1:26832 Accepted
+[Tue Apr 28 09:07:01 2026] 127.0.0.1:34369 [200]: GET /assets/images/cart.svg
+[Tue Apr 28 09:07:01 2026] 127.0.0.1:12617 Accepted
+[Tue Apr 28 09:07:01 2026] 127.0.0.1:26832 [200]: GET /assets/images/about-image.jpg
+[Tue Apr 28 09:07:01 2026] 127.0.0.1:63682 Accepted
+[Tue Apr 28 09:07:01 2026] 127.0.0.1:12617 [200]: GET /assets/images/circle.svg
+[Tue Apr 28 09:07:01 2026] 127.0.0.1:17959 Closing
+[Tue Apr 28 09:07:01 2026] 127.0.0.1:1818 Closing
+[Tue Apr 28 09:07:01 2026] 127.0.0.1:63682 [200]: GET /assets/js/taaza.js
+[Tue Apr 28 09:07:01 2026] 127.0.0.1:34369 Closing
+[Tue Apr 28 09:07:01 2026] 127.0.0.1:26832 Closing
+[Tue Apr 28 09:07:01 2026] 127.0.0.1:12617 Closing
+[Tue Apr 28 09:07:01 2026] 127.0.0.1:58790 Accepted
+[Tue Apr 28 09:07:01 2026] 127.0.0.1:63682 Closing
+[Tue Apr 28 09:07:01 2026] 127.0.0.1:57791 Accepted
+[Tue Apr 28 09:07:01 2026] 127.0.0.1:58790 [200]: GET /assets/images/ring.svg
+[Tue Apr 28 09:07:01 2026] 127.0.0.1:49668 Accepted
+[Tue Apr 28 09:07:01 2026] 127.0.0.1:57791 [200]: GET /assets/images/about2.png
+[Tue Apr 28 09:07:01 2026] 127.0.0.1:49668 [200]: GET /assets/images/about3.png
+[Tue Apr 28 09:07:01 2026] 127.0.0.1:26348 Accepted
+[Tue Apr 28 09:07:01 2026] 127.0.0.1:58790 Closing
+[Tue Apr 28 09:07:01 2026] 127.0.0.1:26348 [200]: GET /assets/images/about4.png
+[Tue Apr 28 09:07:02 2026] 127.0.0.1:57791 Closing
+[Tue Apr 28 09:07:02 2026] 127.0.0.1:26348 Closing
+[Tue Apr 28 09:07:02 2026] 127.0.0.1:49668 Closing
+[Tue Apr 28 09:07:06 2026] 127.0.0.1:57829 Accepted
+[Tue Apr 28 09:07:06 2026] PHP Warning:  session_start(): open(C:\xampp\tmp\sess_97kdglf2cdvfil2mff84h2ivir, O_RDWR) failed: Permission denied (13) in C:\Users\galit\Project-Taaza\services.php on line 2
+[Tue Apr 28 09:07:06 2026] PHP Warning:  session_start(): Failed to read session data: files (path: C:\xampp\tmp) in C:\Users\galit\Project-Taaza\services.php on line 2
+[Tue Apr 28 09:07:06 2026] 127.0.0.1:57829 [200]: GET /services.php
+[Tue Apr 28 09:07:06 2026] 127.0.0.1:57829 Closing
+[Tue Apr 28 09:07:06 2026] 127.0.0.1:57196 Accepted
+[Tue Apr 28 09:07:06 2026] 127.0.0.1:57196 [200]: GET /assets/css/taaza.css
+[Tue Apr 28 09:07:06 2026] 127.0.0.1:21061 Accepted
+[Tue Apr 28 09:07:06 2026] 127.0.0.1:21061 [200]: GET /assets/css/media_query.css
+[Tue Apr 28 09:07:06 2026] 127.0.0.1:14373 Accepted
+[Tue Apr 28 09:07:06 2026] 127.0.0.1:57196 Closing
+[Tue Apr 28 09:07:06 2026] 127.0.0.1:17797 Accepted
+[Tue Apr 28 09:07:06 2026] 127.0.0.1:14373 [200]: GET /assets/images/logo.png
+[Tue Apr 28 09:07:06 2026] 127.0.0.1:4353 Accepted
+[Tue Apr 28 09:07:06 2026] 127.0.0.1:17797 [200]: GET /assets/images/cart.svg
+[Tue Apr 28 09:07:06 2026] 127.0.0.1:21061 Closing
+[Tue Apr 28 09:07:06 2026] 127.0.0.1:54076 Accepted
+[Tue Apr 28 09:07:06 2026] 127.0.0.1:4353 [200]: GET /assets/images/service1.png
+[Tue Apr 28 09:07:06 2026] 127.0.0.1:54076 [200]: GET /assets/images/service2.png
+[Tue Apr 28 09:07:06 2026] 127.0.0.1:14373 Closing
+[Tue Apr 28 09:07:06 2026] 127.0.0.1:33043 Accepted
+[Tue Apr 28 09:07:06 2026] 127.0.0.1:17797 Closing
+[Tue Apr 28 09:07:06 2026] 127.0.0.1:7711 Accepted
+[Tue Apr 28 09:07:06 2026] 127.0.0.1:33043 [200]: GET /assets/images/service3.png
+[Tue Apr 28 09:07:06 2026] 127.0.0.1:7711 [200]: GET /assets/js/taaza.js
+[Tue Apr 28 09:07:06 2026] 127.0.0.1:4353 Closing
+[Tue Apr 28 09:07:06 2026] 127.0.0.1:54076 Closing
+[Tue Apr 28 09:07:06 2026] 127.0.0.1:33043 Closing
+[Tue Apr 28 09:07:06 2026] 127.0.0.1:7711 Closing
+[Tue Apr 28 09:07:06 2026] 127.0.0.1:13719 Accepted
+[Tue Apr 28 09:07:06 2026] 127.0.0.1:13719 [200]: GET /assets/images/service4.png
+[Tue Apr 28 09:07:06 2026] 127.0.0.1:13719 Closing
+[Tue Apr 28 09:07:06 2026] 127.0.0.1:50365 Accepted
+[Tue Apr 28 09:07:06 2026] 127.0.0.1:50365 [200]: GET /assets/images/service5.png
+[Tue Apr 28 09:07:06 2026] 127.0.0.1:50365 Closing
+[Tue Apr 28 09:07:11 2026] 127.0.0.1:16956 Accepted
+[Tue Apr 28 09:07:11 2026] 127.0.0.1:39806 Accepted
+[Tue Apr 28 09:07:11 2026] PHP Warning:  session_start(): open(C:\xampp\tmp\sess_97kdglf2cdvfil2mff84h2ivir, O_RDWR) failed: Permission denied (13) in C:\Users\galit\Project-Taaza\menu.php on line 2
+[Tue Apr 28 09:07:11 2026] PHP Warning:  session_start(): Failed to read session data: files (path: C:\xampp\tmp) in C:\Users\galit\Project-Taaza\menu.php on line 2
+[Tue Apr 28 09:07:11 2026] PHP Warning:  Trying to access array offset on value of type null in C:\Users\galit\Project-Taaza\menu.php on line 13
+[Tue Apr 28 09:07:11 2026] 127.0.0.1:16956 [200]: GET /menu.php
+[Tue Apr 28 09:07:11 2026] 127.0.0.1:16956 Closing
+[Tue Apr 28 09:07:29 2026] PHP Warning:  session_start(): open(C:\xampp\tmp\sess_97kdglf2cdvfil2mff84h2ivir, O_RDWR) failed: Permission denied (13) in C:\Users\galit\Project-Taaza\services.php on line 2
+[Tue Apr 28 09:07:29 2026] PHP Warning:  session_start(): Failed to read session data: files (path: C:\xampp\tmp) in C:\Users\galit\Project-Taaza\services.php on line 2
+[Tue Apr 28 09:07:29 2026] 127.0.0.1:39806 [200]: GET /services.php
+[Tue Apr 28 09:07:29 2026] 127.0.0.1:39806 Closing
+[Tue Apr 28 09:07:29 2026] 127.0.0.1:1762 Accepted
+[Tue Apr 28 09:07:29 2026] 127.0.0.1:1762 [200]: GET /assets/css/taaza.css
+[Tue Apr 28 09:07:29 2026] 127.0.0.1:1762 Closing
+[Tue Apr 28 09:07:29 2026] 127.0.0.1:3151 Accepted
+[Tue Apr 28 09:07:29 2026] 127.0.0.1:64683 Accepted
+[Tue Apr 28 09:07:29 2026] 127.0.0.1:5994 Accepted
+[Tue Apr 28 09:07:29 2026] 127.0.0.1:3151 [200]: GET /assets/css/media_query.css
+[Tue Apr 28 09:07:29 2026] 127.0.0.1:64683 [200]: GET /assets/images/logo.png
+[Tue Apr 28 09:07:29 2026] 127.0.0.1:5994 [200]: GET /assets/images/cart.svg
+[Tue Apr 28 09:07:29 2026] 127.0.0.1:3151 Closing
+[Tue Apr 28 09:07:29 2026] 127.0.0.1:64683 Closing
+[Tue Apr 28 09:07:29 2026] 127.0.0.1:5994 Closing
+[Tue Apr 28 09:07:29 2026] 127.0.0.1:37041 Accepted
+[Tue Apr 28 09:07:29 2026] 127.0.0.1:44581 Accepted
+[Tue Apr 28 09:07:29 2026] 127.0.0.1:37041 [200]: GET /assets/images/service1.png
+[Tue Apr 28 09:07:29 2026] 127.0.0.1:44581 [200]: GET /assets/images/service2.png
+[Tue Apr 28 09:07:29 2026] 127.0.0.1:37041 Closing
+[Tue Apr 28 09:07:29 2026] 127.0.0.1:44581 Closing
+[Tue Apr 28 09:07:29 2026] 127.0.0.1:34653 Accepted
+[Tue Apr 28 09:07:29 2026] 127.0.0.1:34653 [200]: GET /assets/images/service3.png
+[Tue Apr 28 09:07:29 2026] 127.0.0.1:34653 Closing
+[Tue Apr 28 09:07:29 2026] 127.0.0.1:1452 Accepted
+[Tue Apr 28 09:07:29 2026] 127.0.0.1:26266 Accepted
+[Tue Apr 28 09:07:29 2026] 127.0.0.1:1452 [200]: GET /assets/js/taaza.js
+[Tue Apr 28 09:07:29 2026] 127.0.0.1:26266 [200]: GET /assets/images/service4.png
+[Tue Apr 28 09:07:29 2026] 127.0.0.1:1452 Closing
+[Tue Apr 28 09:07:29 2026] 127.0.0.1:26266 Closing
+[Tue Apr 28 09:07:29 2026] 127.0.0.1:32649 Accepted
+[Tue Apr 28 09:07:29 2026] 127.0.0.1:32649 [200]: GET /assets/images/service5.png
+[Tue Apr 28 09:07:29 2026] 127.0.0.1:32649 Closing
+[Tue Apr 28 09:07:32 2026] 127.0.0.1:10885 Accepted
+[Tue Apr 28 09:07:32 2026] 127.0.0.1:43894 Accepted
+[Tue Apr 28 09:07:32 2026] PHP Warning:  session_start(): open(C:\xampp\tmp\sess_97kdglf2cdvfil2mff84h2ivir, O_RDWR) failed: Permission denied (13) in C:\Users\galit\Project-Taaza\menu.php on line 2
+[Tue Apr 28 09:07:32 2026] PHP Warning:  session_start(): Failed to read session data: files (path: C:\xampp\tmp) in C:\Users\galit\Project-Taaza\menu.php on line 2
+[Tue Apr 28 09:07:32 2026] PHP Warning:  Trying to access array offset on value of type null in C:\Users\galit\Project-Taaza\menu.php on line 13
+[Tue Apr 28 09:07:32 2026] 127.0.0.1:10885 [200]: GET /menu.php
+[Tue Apr 28 09:07:32 2026] 127.0.0.1:10885 Closing
+[Tue Apr 28 09:07:33 2026] PHP Warning:  session_start(): open(C:\xampp\tmp\sess_97kdglf2cdvfil2mff84h2ivir, O_RDWR) failed: Permission denied (13) in C:\Users\galit\Project-Taaza\services.php on line 2
+[Tue Apr 28 09:07:33 2026] PHP Warning:  session_start(): Failed to read session data: files (path: C:\xampp\tmp) in C:\Users\galit\Project-Taaza\services.php on line 2
+[Tue Apr 28 09:07:33 2026] 127.0.0.1:43894 [200]: GET /services.php
+[Tue Apr 28 09:07:33 2026] 127.0.0.1:43894 Closing
+[Tue Apr 28 09:07:33 2026] 127.0.0.1:33303 Accepted
+[Tue Apr 28 09:07:33 2026] 127.0.0.1:33303 [200]: GET /assets/css/taaza.css
+[Tue Apr 28 09:07:33 2026] 127.0.0.1:52419 Accepted
+[Tue Apr 28 09:07:33 2026] 127.0.0.1:50816 Accepted
+[Tue Apr 28 09:07:33 2026] 127.0.0.1:52419 [200]: GET /assets/css/media_query.css
+[Tue Apr 28 09:07:33 2026] 127.0.0.1:50816 [200]: GET /assets/images/logo.png
+[Tue Apr 28 09:07:33 2026] 127.0.0.1:33303 Closing
+[Tue Apr 28 09:07:33 2026] 127.0.0.1:8988 Accepted
+[Tue Apr 28 09:07:33 2026] 127.0.0.1:17564 Accepted
+[Tue Apr 28 09:07:33 2026] 127.0.0.1:8988 [200]: GET /assets/images/cart.svg
+[Tue Apr 28 09:07:33 2026] 127.0.0.1:52419 Closing
+[Tue Apr 28 09:07:33 2026] 127.0.0.1:18401 Accepted
+[Tue Apr 28 09:07:33 2026] 127.0.0.1:17564 [200]: GET /assets/images/service1.png
+[Tue Apr 28 09:07:33 2026] 127.0.0.1:50816 Closing
+[Tue Apr 28 09:07:33 2026] 127.0.0.1:51817 Accepted
+[Tue Apr 28 09:07:33 2026] 127.0.0.1:18401 [200]: GET /assets/images/service2.png
+[Tue Apr 28 09:07:33 2026] 127.0.0.1:51926 Accepted
+[Tue Apr 28 09:07:33 2026] 127.0.0.1:51817 [200]: GET /assets/images/service3.png
+[Tue Apr 28 09:07:33 2026] 127.0.0.1:8988 Closing
+[Tue Apr 28 09:07:33 2026] 127.0.0.1:51926 [200]: GET /assets/js/taaza.js
+[Tue Apr 28 09:07:33 2026] 127.0.0.1:56815 Accepted
+[Tue Apr 28 09:07:33 2026] 127.0.0.1:17564 Closing
+[Tue Apr 28 09:07:33 2026] 127.0.0.1:60020 Accepted
+[Tue Apr 28 09:07:33 2026] 127.0.0.1:56815 [200]: GET /assets/images/service4.png
+[Tue Apr 28 09:07:33 2026] 127.0.0.1:18401 Closing
+[Tue Apr 28 09:07:33 2026] 127.0.0.1:60020 [200]: GET /assets/images/service5.png
+[Tue Apr 28 09:07:33 2026] 127.0.0.1:51817 Closing
+[Tue Apr 28 09:07:33 2026] 127.0.0.1:51926 Closing
+[Tue Apr 28 09:07:33 2026] 127.0.0.1:56815 Closing
+[Tue Apr 28 09:07:33 2026] 127.0.0.1:60020 Closing
+[Tue Apr 28 09:07:33 2026] 127.0.0.1:22651 Accepted
+[Tue Apr 28 09:07:34 2026] 127.0.0.1:34295 Accepted
+[Tue Apr 28 09:07:34 2026] PHP Warning:  session_start(): open(C:\xampp\tmp\sess_97kdglf2cdvfil2mff84h2ivir, O_RDWR) failed: Permission denied (13) in C:\Users\galit\Project-Taaza\contact.php on line 2
+[Tue Apr 28 09:07:34 2026] PHP Warning:  session_start(): Failed to read session data: files (path: C:\xampp\tmp) in C:\Users\galit\Project-Taaza\contact.php on line 2
+[Tue Apr 28 09:07:34 2026] 127.0.0.1:22651 [200]: GET /contact.php
+[Tue Apr 28 09:07:34 2026] 127.0.0.1:22651 Closing
+[Tue Apr 28 09:07:34 2026] 127.0.0.1:34295 [200]: GET /assets/css/taaza.css
+[Tue Apr 28 09:07:34 2026] 127.0.0.1:28361 Accepted
+[Tue Apr 28 09:07:34 2026] 127.0.0.1:56216 Accepted
+[Tue Apr 28 09:07:34 2026] 127.0.0.1:57608 Accepted
+[Tue Apr 28 09:07:34 2026] 127.0.0.1:34295 Closing
+[Tue Apr 28 09:07:34 2026] 127.0.0.1:7949 Accepted
+[Tue Apr 28 09:07:34 2026] 127.0.0.1:28361 [200]: GET /assets/css/media_query.css
+[Tue Apr 28 09:07:34 2026] 127.0.0.1:56216 [200]: GET /assets/images/logo.png
+[Tue Apr 28 09:07:34 2026] 127.0.0.1:57608 [200]: GET /assets/images/cart.svg
+[Tue Apr 28 09:07:34 2026] 127.0.0.1:7949 [200]: GET /assets/js/taaza.js
+[Tue Apr 28 09:07:34 2026] 127.0.0.1:28361 Closing
+[Tue Apr 28 09:07:34 2026] 127.0.0.1:56216 Closing
+[Tue Apr 28 09:07:34 2026] 127.0.0.1:57608 Closing
+[Tue Apr 28 09:07:34 2026] 127.0.0.1:7949 Closing
+[Tue Apr 28 09:07:39 2026] 127.0.0.1:58412 Accepted
+[Tue Apr 28 09:07:39 2026] 127.0.0.1:6756 Accepted
+[Tue Apr 28 09:07:39 2026] PHP Warning:  session_start(): open(C:\xampp\tmp\sess_97kdglf2cdvfil2mff84h2ivir, O_RDWR) failed: Permission denied (13) in C:\Users\galit\Project-Taaza\dashboard.php on line 2
+[Tue Apr 28 09:07:39 2026] PHP Warning:  session_start(): Failed to read session data: files (path: C:\xampp\tmp) in C:\Users\galit\Project-Taaza\dashboard.php on line 2
+[Tue Apr 28 09:07:40 2026] 127.0.0.1:58412 [302]: GET /dashboard.php
+[Tue Apr 28 09:07:40 2026] 127.0.0.1:58412 Closing
+[Tue Apr 28 09:07:40 2026] PHP Warning:  session_start(): open(C:\xampp\tmp\sess_97kdglf2cdvfil2mff84h2ivir, O_RDWR) failed: Permission denied (13) in C:\Users\galit\Project-Taaza\new-login.php on line 2
+[Tue Apr 28 09:07:40 2026] PHP Warning:  session_start(): Failed to read session data: files (path: C:\xampp\tmp) in C:\Users\galit\Project-Taaza\new-login.php on line 2
+[Tue Apr 28 09:07:40 2026] 127.0.0.1:6756 [200]: GET /new-login.php
+[Tue Apr 28 09:07:40 2026] 127.0.0.1:6756 Closing
+[Tue Apr 28 09:07:40 2026] 127.0.0.1:61721 Accepted
+[Tue Apr 28 09:07:40 2026] 127.0.0.1:61721 [200]: GET /assets/css/taaza.css
+[Tue Apr 28 09:07:40 2026] 127.0.0.1:5585 Accepted
+[Tue Apr 28 09:07:40 2026] 127.0.0.1:5585 [200]: GET /assets/css/media_query.css
+[Tue Apr 28 09:07:40 2026] 127.0.0.1:64223 Accepted
+[Tue Apr 28 09:07:40 2026] 127.0.0.1:61721 Closing
+[Tue Apr 28 09:07:40 2026] 127.0.0.1:57379 Accepted
+[Tue Apr 28 09:07:40 2026] 127.0.0.1:43738 Accepted
+[Tue Apr 28 09:07:40 2026] 127.0.0.1:5585 Closing
+[Tue Apr 28 09:07:40 2026] 127.0.0.1:53087 Accepted
+[Tue Apr 28 09:07:40 2026] 127.0.0.1:64223 [200]: GET /assets/images/logo.png
+[Tue Apr 28 09:07:40 2026] 127.0.0.1:57379 [200]: GET /assets/images/cart.svg
+[Tue Apr 28 09:07:40 2026] 127.0.0.1:43738 [200]: GET /assets/images/dialog-1.svg
+[Tue Apr 28 09:07:40 2026] 127.0.0.1:53087 [200]: GET /assets/images/dialog-2.svg
+[Tue Apr 28 09:07:40 2026] 127.0.0.1:28884 Accepted
+[Tue Apr 28 09:07:40 2026] 127.0.0.1:64223 Closing
+[Tue Apr 28 09:07:40 2026] 127.0.0.1:57379 Closing
+[Tue Apr 28 09:07:40 2026] 127.0.0.1:43738 Closing
+[Tue Apr 28 09:07:40 2026] 127.0.0.1:53087 Closing
+[Tue Apr 28 09:07:40 2026] 127.0.0.1:59628 Accepted
+[Tue Apr 28 09:07:40 2026] 127.0.0.1:28884 [200]: GET /assets/images/circle.svg
+[Tue Apr 28 09:07:40 2026] 127.0.0.1:59628 [200]: GET /assets/js/taaza.js
+[Tue Apr 28 09:07:40 2026] 127.0.0.1:28884 Closing
+[Tue Apr 28 09:07:40 2026] 127.0.0.1:59628 Closing
+[Tue Apr 28 09:07:40 2026] 127.0.0.1:17408 Accepted
+[Tue Apr 28 09:07:40 2026] 127.0.0.1:17408 [200]: GET /assets/images/ring.svg
+[Tue Apr 28 09:07:40 2026] 127.0.0.1:17408 Closing
+[Tue Apr 28 09:07:40 2026] 127.0.0.1:48646 Accepted
+[Tue Apr 28 09:07:40 2026] 127.0.0.1:1481 Accepted
+[Tue Apr 28 09:07:40 2026] 127.0.0.1:48646 [200]: GET /assets/images/food1.png
+[Tue Apr 28 09:07:40 2026] 127.0.0.1:1481 [200]: GET /assets/images/food2.png
+[Tue Apr 28 09:07:40 2026] 127.0.0.1:20533 Accepted
+[Tue Apr 28 09:07:40 2026] 127.0.0.1:20533 [200]: GET /assets/images/food3.png
+[Tue Apr 28 09:07:40 2026] 127.0.0.1:48646 Closing
+[Tue Apr 28 09:07:40 2026] 127.0.0.1:1481 Closing
+[Tue Apr 28 09:07:40 2026] 127.0.0.1:20533 Closing
+[Tue Apr 28 09:19:57 2026] 127.0.0.1:30143 Accepted
+[Tue Apr 28 09:19:57 2026] 127.0.0.1:30143 [200]: GET /services.php
+[Tue Apr 28 09:19:57 2026] 127.0.0.1:30143 Closing
+[Tue Apr 28 09:19:57 2026] 127.0.0.1:30144 Accepted
+[Tue Apr 28 09:19:57 2026] 127.0.0.1:30144 [200]: GET /contact.php
+[Tue Apr 28 09:19:57 2026] 127.0.0.1:30144 Closing
+[Tue Apr 28 09:19:57 2026] 127.0.0.1:30145 Accepted
+[Tue Apr 28 09:19:57 2026] 127.0.0.1:30145 [200]: GET /menu.php
+[Tue Apr 28 09:19:57 2026] 127.0.0.1:30145 Closing
+[Tue Apr 28 09:20:25 2026] 127.0.0.1:30148 Accepted
+[Tue Apr 28 09:20:25 2026] 127.0.0.1:30148 [200]: GET /
+[Tue Apr 28 09:20:25 2026] 127.0.0.1:30148 Closing
+[Tue Apr 28 09:24:02 2026] 127.0.0.1:33159 Accepted
+[Tue Apr 28 09:24:02 2026] 127.0.0.1:33159 [200]: GET /contact.php
+[Tue Apr 28 09:24:02 2026] 127.0.0.1:33159 Closing
+[Tue Apr 28 09:24:02 2026] 127.0.0.1:33161 Accepted
+[Tue Apr 28 09:24:02 2026] 127.0.0.1:33161 [200]: GET /
+[Tue Apr 28 09:24:02 2026] 127.0.0.1:33161 Closing
+[Tue Apr 28 09:24:09 2026] 127.0.0.1:33163 Accepted
+[Tue Apr 28 09:24:09 2026] 127.0.0.1:33163 [200]: GET /
+[Tue Apr 28 09:24:09 2026] 127.0.0.1:33163 Closing
+[Tue Apr 28 09:25:19 2026] 127.0.0.1:3100 Accepted
+[Tue Apr 28 09:25:19 2026] 127.0.0.1:3100 [200]: GET /
+[Tue Apr 28 09:25:19 2026] 127.0.0.1:3100 Closing
+[Tue Apr 28 09:25:19 2026] 127.0.0.1:61901 Accepted
+[Tue Apr 28 09:25:19 2026] 127.0.0.1:61901 [200]: GET /assets/css/taaza.css
+[Tue Apr 28 09:25:19 2026] 127.0.0.1:61901 Closing
+[Tue Apr 28 09:25:19 2026] 127.0.0.1:9521 Accepted
+[Tue Apr 28 09:25:19 2026] 127.0.0.1:37619 Accepted
+[Tue Apr 28 09:25:19 2026] 127.0.0.1:9521 [200]: GET /assets/css/media_query.css
+[Tue Apr 28 09:25:19 2026] 127.0.0.1:51358 Accepted
+[Tue Apr 28 09:25:19 2026] 127.0.0.1:17902 Accepted
+[Tue Apr 28 09:25:19 2026] 127.0.0.1:46482 Accepted
+[Tue Apr 28 09:25:19 2026] 127.0.0.1:9521 Closing
+[Tue Apr 28 09:25:19 2026] 127.0.0.1:33500 Accepted
+[Tue Apr 28 09:25:19 2026] 127.0.0.1:37619 [200]: GET /assets/images/cart.svg
+[Tue Apr 28 09:25:19 2026] 127.0.0.1:51358 [200]: GET /assets/images/logo.png
+[Tue Apr 28 09:25:19 2026] 127.0.0.1:17902 [200]: GET /assets/images/menu.svg
+[Tue Apr 28 09:25:19 2026] 127.0.0.1:46482 [200]: GET /assets/images/arrow.svg
+[Tue Apr 28 09:25:19 2026] 127.0.0.1:33500 [200]: GET /assets/images/dialog-1.svg
+[Tue Apr 28 09:25:19 2026] 127.0.0.1:37619 Closing
+[Tue Apr 28 09:25:19 2026] 127.0.0.1:51358 Closing
+[Tue Apr 28 09:25:19 2026] 127.0.0.1:17902 Closing
+[Tue Apr 28 09:25:19 2026] 127.0.0.1:46482 Closing
+[Tue Apr 28 09:25:19 2026] 127.0.0.1:33500 Closing
+[Tue Apr 28 09:25:19 2026] 127.0.0.1:29749 Accepted
+[Tue Apr 28 09:25:19 2026] 127.0.0.1:55981 Accepted
+[Tue Apr 28 09:25:19 2026] 127.0.0.1:51035 Accepted
+[Tue Apr 28 09:25:19 2026] 127.0.0.1:29749 [200]: GET /assets/js/taaza.js
+[Tue Apr 28 09:25:19 2026] 127.0.0.1:55981 [200]: GET /assets/images/circle.svg
+[Tue Apr 28 09:25:19 2026] 127.0.0.1:9268 Accepted
+[Tue Apr 28 09:25:19 2026] 127.0.0.1:51035 [200]: GET /assets/images/dialog-2.svg
+[Tue Apr 28 09:25:19 2026] 127.0.0.1:54315 Accepted
+[Tue Apr 28 09:25:19 2026] 127.0.0.1:9268 [200]: GET /assets/images/about-image.jpg
+[Tue Apr 28 09:25:19 2026] 127.0.0.1:53447 Accepted
+[Tue Apr 28 09:25:19 2026] 127.0.0.1:54315 [200]: GET /assets/images/ring.svg
+[Tue Apr 28 09:25:19 2026] 127.0.0.1:29749 Closing
+[Tue Apr 28 09:25:19 2026] 127.0.0.1:55981 Closing
+[Tue Apr 28 09:25:19 2026] 127.0.0.1:53447 [200]: GET /assets/images/signature.png
+[Tue Apr 28 09:25:19 2026] 127.0.0.1:51035 Closing
+[Tue Apr 28 09:25:19 2026] 127.0.0.1:9268 Closing
+[Tue Apr 28 09:25:19 2026] 127.0.0.1:54315 Closing
+[Tue Apr 28 09:25:19 2026] 127.0.0.1:53447 Closing
+[Tue Apr 28 09:25:20 2026] 127.0.0.1:28303 Accepted
+[Tue Apr 28 09:25:20 2026] 127.0.0.1:36611 Accepted
+[Tue Apr 28 09:25:20 2026] 127.0.0.1:9794 Accepted
+[Tue Apr 28 09:25:20 2026] 127.0.0.1:28303 [200]: GET /assets/images/food1.png
+[Tue Apr 28 09:25:20 2026] 127.0.0.1:36611 [200]: GET /assets/images/food2.png
+[Tue Apr 28 09:25:20 2026] 127.0.0.1:9794 [200]: GET /assets/images/food3.png
+[Tue Apr 28 09:25:20 2026] 127.0.0.1:28303 Closing
+[Tue Apr 28 09:25:20 2026] 127.0.0.1:36611 Closing
+[Tue Apr 28 09:25:20 2026] 127.0.0.1:9794 Closing
+[Tue Apr 28 09:25:30 2026] 127.0.0.1:62487 Accepted
+[Tue Apr 28 09:25:30 2026] 127.0.0.1:27946 Accepted
+[Tue Apr 28 09:25:30 2026] 127.0.0.1:62487 [200]: GET /menu.php
+[Tue Apr 28 09:25:30 2026] 127.0.0.1:62487 Closing
+[Tue Apr 28 09:25:30 2026] 127.0.0.1:27946 [200]: GET /assets/css/menu.css
+[Tue Apr 28 09:25:30 2026] 127.0.0.1:56906 Accepted
+[Tue Apr 28 09:25:30 2026] 127.0.0.1:27946 Closing
+[Tue Apr 28 09:25:30 2026] 127.0.0.1:58682 Accepted
+[Tue Apr 28 09:25:30 2026] 127.0.0.1:35544 Accepted
+[Tue Apr 28 09:25:30 2026] 127.0.0.1:56906 [200]: GET /assets/css/taaza.css
+[Tue Apr 28 09:25:30 2026] 127.0.0.1:58682 [200]: GET /assets/css/media_query.css
+[Tue Apr 28 09:25:30 2026] 127.0.0.1:58188 Accepted
+[Tue Apr 28 09:25:30 2026] 127.0.0.1:35544 [200]: GET /assets/images/menu/veg/1.png
+[Tue Apr 28 09:25:30 2026] 127.0.0.1:3222 Accepted
+[Tue Apr 28 09:25:30 2026] 127.0.0.1:58188 [200]: GET /assets/images/logo.png
+[Tue Apr 28 09:25:30 2026] 127.0.0.1:19185 Accepted
+[Tue Apr 28 09:25:30 2026] 127.0.0.1:3222 [200]: GET /assets/images/cart.svg
+[Tue Apr 28 09:25:30 2026] 127.0.0.1:56906 Closing
+[Tue Apr 28 09:25:30 2026] 127.0.0.1:58682 Closing
+[Tue Apr 28 09:25:30 2026] 127.0.0.1:19185 [200]: GET /assets/images/menu/veg/2.png
+[Tue Apr 28 09:25:30 2026] 127.0.0.1:58188 Closing
+[Tue Apr 28 09:25:30 2026] 127.0.0.1:3222 Closing
+[Tue Apr 28 09:25:30 2026] 127.0.0.1:30695 Accepted
+[Tue Apr 28 09:25:30 2026] 127.0.0.1:30695 [200]: GET /assets/images/menu/veg/3.png
+[Tue Apr 28 09:25:30 2026] 127.0.0.1:32666 Accepted
+[Tue Apr 28 09:25:30 2026] 127.0.0.1:32666 [200]: GET /assets/js/taaza.js
+[Tue Apr 28 09:25:30 2026] 127.0.0.1:35544 Closing
+[Tue Apr 28 09:25:30 2026] 127.0.0.1:32666 Closing
+[Tue Apr 28 09:25:30 2026] 127.0.0.1:2774 Accepted
+[Tue Apr 28 09:25:30 2026] 127.0.0.1:2774 [200]: GET /assets/images/menu/non-veg/1.jpg
+[Tue Apr 28 09:25:30 2026] 127.0.0.1:30695 Closing
+[Tue Apr 28 09:25:30 2026] 127.0.0.1:34380 Accepted
+[Tue Apr 28 09:25:31 2026] 127.0.0.1:3469 Accepted
+[Tue Apr 28 09:25:31 2026] 127.0.0.1:19185 Closing
+[Tue Apr 28 09:25:31 2026] 127.0.0.1:34380 [200]: GET /assets/images/menu/non-veg/2.jpg
+[Tue Apr 28 09:25:31 2026] 127.0.0.1:3469 [200]: GET /assets/images/menu/non-veg/4.jpg
+[Tue Apr 28 09:25:31 2026] 127.0.0.1:54409 Accepted
+[Tue Apr 28 09:25:31 2026] 127.0.0.1:62327 Accepted
+[Tue Apr 28 09:25:31 2026] 127.0.0.1:54409 [200]: GET /assets/images/menu/local/Untitled%20design.png
+[Tue Apr 28 09:25:31 2026] 127.0.0.1:62327 [200]: GET /assets/images/menu/sea-food/Untitled%20design(6).png
+[Tue Apr 28 09:25:31 2026] 127.0.0.1:5165 Accepted
+[Tue Apr 28 09:25:31 2026] 127.0.0.1:5165 [200]: GET /assets/images/menu/sea-food/Untitled%20design(8).png
+[Tue Apr 28 09:25:31 2026] 127.0.0.1:2774 Closing
+[Tue Apr 28 09:25:31 2026] 127.0.0.1:3469 Closing
+[Tue Apr 28 09:25:31 2026] 127.0.0.1:34380 Closing
+[Tue Apr 28 09:25:31 2026] 127.0.0.1:54409 Closing
+[Tue Apr 28 09:25:31 2026] 127.0.0.1:60966 Accepted
+[Tue Apr 28 09:25:31 2026] 127.0.0.1:41297 Accepted
+[Tue Apr 28 09:25:31 2026] 127.0.0.1:60966 [200]: GET /assets/images/menu/chinese/3.jpg
+[Tue Apr 28 09:25:31 2026] 127.0.0.1:41297 [200]: GET /assets/images/menu/chinese/Untitled%20design(4).png
+[Tue Apr 28 09:25:31 2026] 127.0.0.1:62327 Closing
+[Tue Apr 28 09:25:31 2026] 127.0.0.1:5165 Closing
+[Tue Apr 28 09:25:31 2026] 127.0.0.1:60966 Closing
+[Tue Apr 28 09:25:31 2026] 127.0.0.1:41297 Closing
+[Tue Apr 28 09:33:47 2026] 127.0.0.1:21229 Accepted
+[Tue Apr 28 09:33:47 2026] 127.0.0.1:21229 [200]: GET /menu.php
+[Tue Apr 28 09:33:47 2026] 127.0.0.1:21229 Closing
+[Tue Apr 28 09:33:47 2026] 127.0.0.1:21231 Accepted
+[Tue Apr 28 09:33:47 2026] 127.0.0.1:21231 [200]: GET /
+[Tue Apr 28 09:33:47 2026] 127.0.0.1:21231 Closing
+[Tue Apr 28 09:34:47 2026] 127.0.0.1:22736 Accepted
+[Tue Apr 28 09:34:47 2026] 127.0.0.1:22736 [200]: GET /
+[Tue Apr 28 09:34:47 2026] 127.0.0.1:22736 Closing
+[Tue Apr 28 09:34:47 2026] 127.0.0.1:7268 Accepted
+[Tue Apr 28 09:34:47 2026] 127.0.0.1:7268 [200]: GET /assets/css/taaza.css
+[Tue Apr 28 09:34:47 2026] 127.0.0.1:58591 Accepted
+[Tue Apr 28 09:34:47 2026] 127.0.0.1:7268 Closing
+[Tue Apr 28 09:34:47 2026] 127.0.0.1:54731 Accepted
+[Tue Apr 28 09:34:47 2026] 127.0.0.1:27061 Accepted
+[Tue Apr 28 09:34:47 2026] 127.0.0.1:58591 [200]: GET /assets/css/media_query.css
+[Tue Apr 28 09:34:47 2026] 127.0.0.1:54731 [200]: GET /assets/images/logo.png
+[Tue Apr 28 09:34:47 2026] 127.0.0.1:27061 [200]: GET /assets/images/cart.svg
+[Tue Apr 28 09:34:47 2026] 127.0.0.1:58591 Closing
+[Tue Apr 28 09:34:47 2026] 127.0.0.1:54731 Closing
+[Tue Apr 28 09:34:47 2026] 127.0.0.1:27061 Closing
+[Tue Apr 28 09:34:47 2026] 127.0.0.1:58429 Accepted
+[Tue Apr 28 09:34:47 2026] 127.0.0.1:58429 [200]: GET /assets/images/arrow.svg
+[Tue Apr 28 09:34:47 2026] 127.0.0.1:54347 Accepted
+[Tue Apr 28 09:34:47 2026] 127.0.0.1:58429 Closing
+[Tue Apr 28 09:34:47 2026] 127.0.0.1:54347 [200]: GET /assets/images/menu.svg
+[Tue Apr 28 09:34:47 2026] 127.0.0.1:54347 Closing
+[Tue Apr 28 09:34:47 2026] 127.0.0.1:5494 Accepted
+[Tue Apr 28 09:34:47 2026] 127.0.0.1:5494 [200]: GET /assets/images/dialog-1.svg
+[Tue Apr 28 09:34:47 2026] 127.0.0.1:1483 Accepted
+[Tue Apr 28 09:34:47 2026] 127.0.0.1:35454 Accepted
+[Tue Apr 28 09:34:47 2026] 127.0.0.1:47825 Accepted
+[Tue Apr 28 09:34:47 2026] 127.0.0.1:1483 [200]: GET /assets/js/taaza.js
+[Tue Apr 28 09:34:47 2026] 127.0.0.1:35454 [200]: GET /assets/images/circle.svg
+[Tue Apr 28 09:34:47 2026] 127.0.0.1:5494 Closing
+[Tue Apr 28 09:34:47 2026] 127.0.0.1:47825 [200]: GET /assets/images/dialog-2.svg
+[Tue Apr 28 09:34:47 2026] 127.0.0.1:1483 Closing
+[Tue Apr 28 09:34:47 2026] 127.0.0.1:35454 Closing
+[Tue Apr 28 09:34:47 2026] 127.0.0.1:59400 Accepted
+[Tue Apr 28 09:34:47 2026] 127.0.0.1:47825 Closing
+[Tue Apr 28 09:34:47 2026] 127.0.0.1:59400 [200]: GET /assets/images/ring.svg
+[Tue Apr 28 09:34:47 2026] 127.0.0.1:1717 Accepted
+[Tue Apr 28 09:34:47 2026] 127.0.0.1:26571 Accepted
+[Tue Apr 28 09:34:47 2026] 127.0.0.1:1717 [200]: GET /assets/images/about-image.jpg
+[Tue Apr 28 09:34:47 2026] 127.0.0.1:26571 [200]: GET /assets/images/signature.png
+[Tue Apr 28 09:34:47 2026] 127.0.0.1:59400 Closing
+[Tue Apr 28 09:34:47 2026] 127.0.0.1:1717 Closing
+[Tue Apr 28 09:34:47 2026] 127.0.0.1:26571 Closing
+[Tue Apr 28 09:34:47 2026] 127.0.0.1:60397 Accepted
+[Tue Apr 28 09:34:47 2026] 127.0.0.1:58897 Accepted
+[Tue Apr 28 09:34:47 2026] 127.0.0.1:24029 Accepted
+[Tue Apr 28 09:34:47 2026] 127.0.0.1:60397 [200]: GET /assets/images/food1.png
+[Tue Apr 28 09:34:47 2026] 127.0.0.1:58897 [200]: GET /assets/images/food2.png
+[Tue Apr 28 09:34:47 2026] 127.0.0.1:24029 [200]: GET /assets/images/food3.png
+[Tue Apr 28 09:34:47 2026] 127.0.0.1:60397 Closing
+[Tue Apr 28 09:34:47 2026] 127.0.0.1:24029 Closing
+[Tue Apr 28 09:34:47 2026] 127.0.0.1:58897 Closing
+[Tue Apr 28 09:34:53 2026] 127.0.0.1:57189 Accepted
+[Tue Apr 28 09:34:53 2026] 127.0.0.1:8290 Accepted
+[Tue Apr 28 09:34:53 2026] 127.0.0.1:57189 [200]: GET /menu.php
+[Tue Apr 28 09:34:53 2026] 127.0.0.1:57189 Closing
+[Tue Apr 28 09:34:53 2026] 127.0.0.1:8290 [200]: GET /assets/css/taaza.css
+[Tue Apr 28 09:34:53 2026] 127.0.0.1:61575 Accepted
+[Tue Apr 28 09:34:53 2026] 127.0.0.1:58854 Accepted
+[Tue Apr 28 09:34:53 2026] 127.0.0.1:47276 Accepted
+[Tue Apr 28 09:34:53 2026] 127.0.0.1:8290 Closing
+[Tue Apr 28 09:34:53 2026] 127.0.0.1:7061 Accepted
+[Tue Apr 28 09:34:53 2026] 127.0.0.1:61575 [200]: GET /assets/css/media_query.css
+[Tue Apr 28 09:34:53 2026] 127.0.0.1:58854 [200]: GET /assets/css/menu.css
+[Tue Apr 28 09:34:53 2026] 127.0.0.1:47276 [200]: GET /assets/images/logo.png
+[Tue Apr 28 09:34:53 2026] 127.0.0.1:14766 Accepted
+[Tue Apr 28 09:34:53 2026] 127.0.0.1:7061 [200]: GET /assets/images/cart.svg
+[Tue Apr 28 09:34:53 2026] 127.0.0.1:14766 [200]: GET /assets/js/taaza.js
+[Tue Apr 28 09:34:53 2026] 127.0.0.1:61575 Closing
+[Tue Apr 28 09:34:53 2026] 127.0.0.1:58854 Closing
+[Tue Apr 28 09:34:53 2026] 127.0.0.1:47276 Closing
+[Tue Apr 28 09:34:53 2026] 127.0.0.1:7061 Closing
+[Tue Apr 28 09:34:53 2026] 127.0.0.1:14766 Closing
+[Tue Apr 28 09:35:06 2026] 127.0.0.1:22934 Accepted
+[Tue Apr 28 09:35:06 2026] 127.0.0.1:49960 Accepted
+[Tue Apr 28 09:35:06 2026] 127.0.0.1:22934 [200]: GET /index.php
+[Tue Apr 28 09:35:06 2026] 127.0.0.1:22934 Closing
+[Tue Apr 28 09:35:06 2026] 127.0.0.1:49960 [200]: GET /assets/css/taaza.css
+[Tue Apr 28 09:35:06 2026] 127.0.0.1:55468 Accepted
+[Tue Apr 28 09:35:06 2026] 127.0.0.1:49960 Closing
+[Tue Apr 28 09:35:06 2026] 127.0.0.1:6299 Accepted
+[Tue Apr 28 09:35:06 2026] 127.0.0.1:23675 Accepted
+[Tue Apr 28 09:35:06 2026] 127.0.0.1:55468 [200]: GET /assets/css/media_query.css
+[Tue Apr 28 09:35:06 2026] 127.0.0.1:6299 [200]: GET /assets/images/logo.png
+[Tue Apr 28 09:35:06 2026] 127.0.0.1:23675 [200]: GET /assets/images/cart.svg
+[Tue Apr 28 09:35:06 2026] 127.0.0.1:55468 Closing
+[Tue Apr 28 09:35:06 2026] 127.0.0.1:6299 Closing
+[Tue Apr 28 09:35:06 2026] 127.0.0.1:23675 Closing
+[Tue Apr 28 09:35:06 2026] 127.0.0.1:37498 Accepted
+[Tue Apr 28 09:35:06 2026] 127.0.0.1:43440 Accepted
+[Tue Apr 28 09:35:06 2026] 127.0.0.1:37498 [200]: GET /assets/images/menu.svg
+[Tue Apr 28 09:35:06 2026] 127.0.0.1:43440 [200]: GET /assets/images/arrow.svg
+[Tue Apr 28 09:35:06 2026] 127.0.0.1:37498 Closing
+[Tue Apr 28 09:35:06 2026] 127.0.0.1:43440 Closing
+[Tue Apr 28 09:35:06 2026] 127.0.0.1:62568 Accepted
+[Tue Apr 28 09:35:06 2026] 127.0.0.1:62568 [200]: GET /assets/images/dialog-1.svg
+[Tue Apr 28 09:35:06 2026] 127.0.0.1:62568 Closing
+[Tue Apr 28 09:35:06 2026] 127.0.0.1:55601 Accepted
+[Tue Apr 28 09:35:06 2026] 127.0.0.1:55601 [200]: GET /assets/js/taaza.js
+[Tue Apr 28 09:35:06 2026] 127.0.0.1:55601 Closing
+[Tue Apr 28 09:35:06 2026] 127.0.0.1:8996 Accepted
+[Tue Apr 28 09:35:06 2026] 127.0.0.1:61866 Accepted
+[Tue Apr 28 09:35:06 2026] 127.0.0.1:3876 Accepted
+[Tue Apr 28 09:35:06 2026] 127.0.0.1:42778 Accepted
+[Tue Apr 28 09:35:06 2026] 127.0.0.1:8996 [200]: GET /assets/images/dialog-2.svg
+[Tue Apr 28 09:35:06 2026] 127.0.0.1:61866 [200]: GET /assets/images/signature.png
+[Tue Apr 28 09:35:06 2026] 127.0.0.1:3876 [200]: GET /assets/images/ring.svg
+[Tue Apr 28 09:35:06 2026] 127.0.0.1:22565 Accepted
+[Tue Apr 28 09:35:06 2026] 127.0.0.1:42778 [200]: GET /assets/images/circle.svg
+[Tue Apr 28 09:35:06 2026] 127.0.0.1:22565 [200]: GET /assets/images/about-image.jpg
+[Tue Apr 28 09:35:06 2026] 127.0.0.1:8996 Closing
+[Tue Apr 28 09:35:06 2026] 127.0.0.1:61866 Closing
+[Tue Apr 28 09:35:06 2026] 127.0.0.1:3876 Closing
+[Tue Apr 28 09:35:06 2026] 127.0.0.1:42778 Closing
+[Tue Apr 28 09:35:06 2026] 127.0.0.1:22565 Closing
+[Tue Apr 28 09:35:07 2026] 127.0.0.1:18945 Accepted
+[Tue Apr 28 09:35:07 2026] 127.0.0.1:28797 Accepted
+[Tue Apr 28 09:35:07 2026] 127.0.0.1:56537 Accepted
+[Tue Apr 28 09:35:07 2026] 127.0.0.1:18945 [200]: GET /assets/images/food1.png
+[Tue Apr 28 09:35:07 2026] 127.0.0.1:28797 [200]: GET /assets/images/food3.png
+[Tue Apr 28 09:35:07 2026] 127.0.0.1:56537 [200]: GET /assets/images/food2.png
+[Tue Apr 28 09:35:07 2026] 127.0.0.1:18945 Closing
+[Tue Apr 28 09:35:07 2026] 127.0.0.1:28797 Closing
+[Tue Apr 28 09:35:07 2026] 127.0.0.1:56537 Closing
+[Tue Apr 28 09:37:30 2026] 127.0.0.1:21471 Accepted
+[Tue Apr 28 09:37:30 2026] 127.0.0.1:33386 Accepted
+[Tue Apr 28 09:37:30 2026] 127.0.0.1:21471 [200]: GET /index.php
+[Tue Apr 28 09:37:30 2026] 127.0.0.1:21471 Closing
+[Tue Apr 28 09:37:30 2026] 127.0.0.1:33386 [200]: GET /assets/css/taaza.css
+[Tue Apr 28 09:37:30 2026] 127.0.0.1:38096 Accepted
+[Tue Apr 28 09:37:30 2026] 127.0.0.1:1625 Accepted
+[Tue Apr 28 09:37:30 2026] 127.0.0.1:38096 [200]: GET /assets/css/media_query.css
+[Tue Apr 28 09:37:30 2026] 127.0.0.1:1625 [200]: GET /assets/images/logo.png
+[Tue Apr 28 09:37:30 2026] 127.0.0.1:33386 Closing
+[Tue Apr 28 09:37:30 2026] 127.0.0.1:6201 Accepted
+[Tue Apr 28 09:37:30 2026] 127.0.0.1:63264 Accepted
+[Tue Apr 28 09:37:30 2026] 127.0.0.1:6201 [200]: GET /assets/images/cart.svg
+[Tue Apr 28 09:37:30 2026] 127.0.0.1:38096 Closing
+[Tue Apr 28 09:37:30 2026] 127.0.0.1:32205 Accepted
+[Tue Apr 28 09:37:30 2026] 127.0.0.1:63264 [200]: GET /assets/images/menu.svg
+[Tue Apr 28 09:37:30 2026] 127.0.0.1:1625 Closing
+[Tue Apr 28 09:37:30 2026] 127.0.0.1:46635 Accepted
+[Tue Apr 28 09:37:30 2026] 127.0.0.1:32205 [200]: GET /assets/images/arrow.svg
+[Tue Apr 28 09:37:30 2026] 127.0.0.1:47357 Accepted
+[Tue Apr 28 09:37:30 2026] 127.0.0.1:46635 [200]: GET /assets/images/dialog-1.svg
+[Tue Apr 28 09:37:30 2026] 127.0.0.1:6201 Closing
+[Tue Apr 28 09:37:30 2026] 127.0.0.1:7668 Accepted
+[Tue Apr 28 09:37:30 2026] 127.0.0.1:47357 [200]: GET /assets/js/taaza.js
+[Tue Apr 28 09:37:30 2026] 127.0.0.1:63264 Closing
+[Tue Apr 28 09:37:30 2026] 127.0.0.1:7668 [200]: GET /assets/images/dialog-2.svg
+[Tue Apr 28 09:37:30 2026] 127.0.0.1:32205 Closing
+[Tue Apr 28 09:37:30 2026] 127.0.0.1:46635 Closing
+[Tue Apr 28 09:37:30 2026] 127.0.0.1:47357 Closing
+[Tue Apr 28 09:37:30 2026] 127.0.0.1:7668 Closing
+[Tue Apr 28 09:37:30 2026] 127.0.0.1:46006 Accepted
+[Tue Apr 28 09:37:30 2026] 127.0.0.1:46006 [200]: GET /assets/images/circle.svg
+[Tue Apr 28 09:37:30 2026] 127.0.0.1:46006 Closing
+[Tue Apr 28 09:37:30 2026] 127.0.0.1:56237 Accepted
+[Tue Apr 28 09:37:30 2026] 127.0.0.1:34681 Accepted
+[Tue Apr 28 09:37:30 2026] 127.0.0.1:56237 [200]: GET /assets/images/ring.svg
+[Tue Apr 28 09:37:30 2026] 127.0.0.1:34681 [200]: GET /assets/images/about-image.jpg
+[Tue Apr 28 09:37:30 2026] 127.0.0.1:56237 Closing
+[Tue Apr 28 09:37:30 2026] 127.0.0.1:34681 Closing
+[Tue Apr 28 09:37:30 2026] 127.0.0.1:11749 Accepted
+[Tue Apr 28 09:37:30 2026] 127.0.0.1:11749 [200]: GET /assets/images/signature.png
+[Tue Apr 28 09:37:30 2026] 127.0.0.1:11749 Closing
+[Tue Apr 28 09:37:30 2026] 127.0.0.1:34065 Accepted
+[Tue Apr 28 09:37:30 2026] 127.0.0.1:33277 Accepted
+[Tue Apr 28 09:37:30 2026] 127.0.0.1:16642 Accepted
+[Tue Apr 28 09:37:30 2026] 127.0.0.1:34065 [200]: GET /assets/images/food1.png
+[Tue Apr 28 09:37:30 2026] 127.0.0.1:33277 [200]: GET /assets/images/food2.png
+[Tue Apr 28 09:37:30 2026] 127.0.0.1:16642 [200]: GET /assets/images/food3.png
+[Tue Apr 28 09:37:30 2026] 127.0.0.1:34065 Closing
+[Tue Apr 28 09:37:30 2026] 127.0.0.1:33277 Closing
+[Tue Apr 28 09:37:30 2026] 127.0.0.1:16642 Closing
+[Tue Apr 28 09:39:34 2026] 127.0.0.1:36163 Accepted
+[Tue Apr 28 09:41:07 2026] 127.0.0.1:36163 Closed without sending a request; it was probably just an unused speculative preconnection
+[Tue Apr 28 09:41:07 2026] 127.0.0.1:36163 Closing
+[Tue Apr 28 09:51:30 2026] 127.0.0.1:5508 Accepted
+[Tue Apr 28 09:51:30 2026] 127.0.0.1:5508 [200]: GET /
+[Tue Apr 28 09:51:30 2026] 127.0.0.1:5508 Closing
+[Tue Apr 28 09:51:30 2026] 127.0.0.1:5510 Accepted
+[Tue Apr 28 09:51:30 2026] 127.0.0.1:5510 [200]: GET /menu.php
+[Tue Apr 28 09:51:30 2026] 127.0.0.1:5510 Closing
+[Tue Apr 28 09:57:05 2026] 127.0.0.1:35675 Accepted
+[Tue Apr 28 09:57:05 2026] 127.0.0.1:35675 [200]: GET /
+[Tue Apr 28 09:57:05 2026] 127.0.0.1:35675 Closing
+[Tue Apr 28 09:57:05 2026] 127.0.0.1:35677 Accepted
+[Tue Apr 28 09:57:05 2026] 127.0.0.1:35677 [200]: GET /contact.php
+[Tue Apr 28 09:57:05 2026] 127.0.0.1:35677 Closing
+[Tue Apr 28 09:57:22 2026] 127.0.0.1:35679 Accepted
+[Tue Apr 28 09:57:22 2026] 127.0.0.1:35679 [200]: GET /assets/images/inalog-silog-logo.svg
+[Tue Apr 28 09:57:22 2026] 127.0.0.1:35680 Accepted
+[Tue Apr 28 09:57:22 2026] 127.0.0.1:35680 [200]: GET /
+[Tue Apr 28 09:57:22 2026] 127.0.0.1:35680 Closing
+[Tue Apr 28 09:57:22 2026] 127.0.0.1:35679 Closing
+[Tue Apr 28 09:57:22 2026] 127.0.0.1:35682 Accepted
+[Tue Apr 28 09:57:22 2026] 127.0.0.1:35682 [200]: GET /index.php
+[Tue Apr 28 09:57:22 2026] 127.0.0.1:35682 Closing
+[Tue Apr 28 10:00:35 2026] 127.0.0.1:61858 Accepted
+[Tue Apr 28 10:00:35 2026] 127.0.0.1:61858 [200]: GET /
+[Tue Apr 28 10:00:35 2026] 127.0.0.1:61858 Closing
+[Tue Apr 28 10:00:35 2026] 127.0.0.1:61860 Accepted
+[Tue Apr 28 10:00:35 2026] 127.0.0.1:61860 [200]: GET /assets/images/inalog%20silog.svg
+[Tue Apr 28 10:00:35 2026] 127.0.0.1:61860 Closing
+[Tue Apr 28 10:03:00 2026] 127.0.0.1:11101 Accepted
+[Tue Apr 28 10:03:00 2026] 127.0.0.1:11101 [200]: GET /
+[Tue Apr 28 10:03:00 2026] 127.0.0.1:11101 Closing

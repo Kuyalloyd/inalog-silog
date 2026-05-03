@@ -1,24 +1,29 @@
-# Project-Taaza
+﻿# Project-Inalog Silog
+
+> Important:
+> The old `CREATE DATABASE taaza_db;` and phpMyAdmin SQL in this README belong to the legacy PHP/MySQL version.
+> Do not run that SQL in Supabase.
+> For the current React + Laravel + Supabase version, use [SUPABASE-SQL-SETUP.sql](/C:/Users/galit/inalog%20silog/SUPABASE-SQL-SETUP.sql:1) and [SUPABASE-SETUP.md](/C:/Users/galit/inalog%20silog/SUPABASE-SETUP.md:1) instead.
 
 <a href="https://www.instagram.com/whxitte"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" /></a> <a href="https://www.linkedin.com/in/sethusatheesh/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a> <a href="https://medium.com/@S3THU"><img src="https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white" /></a>
 
-Taaza is a full website project. It is a responsive restaurant website which provides online services related to a restaurant
+Inalog Silog is a full website project. It is a responsive restaurant website which provides online services related to a restaurant
 
 # Key Features
 
-    🍪 Good Template for a restaurant website
-    🍪 Main pages: Home, About, Services, Our Menu, Contact, Dashboard, Register/Login
-    🍪 Register/Login: Forgot password, Mail sending etc..
-    🍪 Main services website offer(modules): Food ordering (Add to cart --> checkout || Increase/decrease quantity), Table booking (Normal & vip || Book & View Bookings), Vip membership (For discount and more)
-    🍪 Bill printing functionality (PDF generation) [Discounted for vip & non discounted]
-    🍪 Email sending functionality (During registration, forgot password, delete order by admin like events)
-    🍪 Admin functionality (To manage users, orders feedbacks, enabling/disabling pages, giving message etc)
+    ðŸª Good Template for a restaurant website
+    ðŸª Main pages: Home, About, Services, Our Menu, Contact, Dashboard, Register/Login
+    ðŸª Register/Login: Forgot password, Mail sending etc..
+    ðŸª Main services website offer(modules): Food ordering (Add to cart --> checkout || Increase/decrease quantity), Table booking (Normal & vip || Book & View Bookings), Vip membership (For discount and more)
+    ðŸª Bill printing functionality (PDF generation) [Discounted for vip & non discounted]
+    ðŸª Email sending functionality (During registration, forgot password, delete order by admin like events)
+    ðŸª Admin functionality (To manage users, orders feedbacks, enabling/disabling pages, giving message etc)
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&width=435&lines=RESPONSIVE+WEBSITE+TEMPLATE;)](https://git.io/typing-svg)
 
 # Screenshot
 
-![Taaza](https://github.com/WH1T3-E4GL3/Project-Taaza/assets/118425907/7d54c3f1-656d-471b-860d-4880cd93e415)
+![Inalog Silog](https://github.com/WH1T3-E4GL3/Project-Inalog Silog/assets/118425907/7d54c3f1-656d-471b-860d-4880cd93e415)
 
 
 
@@ -45,35 +50,35 @@ Please read the full license text at [http://creativecommons.org/licenses/by-nc/
 Create a database, tables, and columns with following details using phpmyadmin (Detailed structure and query given below this box):
 
     Database name: taaza_db
-    Table names: ⦿ admin
-                     ↳colum names:  id, email, name, password, resettoken, resettokenexpire, enable_table_booking, enable_menu_page
+    Table names: â¦¿ admin
+                     â†³colum names:  id, email, name, password, resettoken, resettokenexpire, enable_table_booking, enable_menu_page
 
-                 ⦿ admin_message
-                     ↳colum names:  id, message, enable_meessage
+                 â¦¿ admin_message
+                     â†³colum names:  id, message, enable_message
 
-                 ⦿ contact
-                    ↳colum names:  id, email, timestamp 	
+                 â¦¿ contact
+                    â†³colum names:  id, email, timestamp 	
 
-                 ⦿ feedback
-                     ↳colum names:  feedback_id, user_email, feedback_text, timestamp
+                 â¦¿ feedback
+                     â†³colum names:  feedback_id, user_email, feedback_text, timestamp
 
-                 ⦿ lend_hand
-                     ↳colum names:   id, name, email, amount, timestamp, show_detail 
+                 â¦¿ lend_hand
+                     â†³colum names:   id, name, email, amount, timestamp, show_detail 
 
-                 ⦿ menu_items
-                     ↳colum names:    id, name, description, category, price, quantity, available, image_path 	
+                 â¦¿ menu_items
+                     â†³colum names:    id, name, description, category, price, quantity, available, image_path 	
                 
-                 ⦿ orders
-                    ↳colum names:  order_id ,name, email, address, item, quantity, total_price, timestamp 	
+                 â¦¿ orders
+                    â†³colum names:  order_id ,name, email, address, item, quantity, total_price, timestamp 	
 
-                 ⦿ registered_users
-                     ↳colum names: name, email, password, gender, state, district, verification_code, is_verified, resettoken, resettokenexpire, is_vip
+                 â¦¿ registered_users
+                     â†³colum names: name, email, password, gender, state, district, verification_code, is_verified, resettoken, resettokenexpire, is_vip
 
-                 ⦿ table_booking_ground
-                     ↳colum names: id, name, email, section, seat, date, time, payment 
+                 â¦¿ table_booking_ground
+                     â†³colum names: id, name, email, section, seat, date, time, payment 
 
-                 ⦿ table_booking_vip
-                     ↳colum names:  id, name, email, section, seat, decor, date, time, payment 
+                 â¦¿ table_booking_vip
+                     â†³colum names:  id, name, email, section, seat, decor, date, time, payment 
 
 # Database Structure & creating queries [Table By Table]
         
@@ -121,7 +126,7 @@ Create a database, tables, and columns with following details using phpmyadmin (
         |------
         |id|int|No|
         |message|varchar(5000)|No|
-        |enable_meessage|tinyint|No|
+        |enable_message|tinyint|No|
 
     -----------------------------------------------------
 
@@ -377,16 +382,16 @@ Create a database, tables, and columns with following details using phpmyadmin (
 
 <img src="https://img.shields.io/badge/VSCode-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white" /> <img src="https://img.shields.io/badge/ChatGPT-74aa9c?style=for-the-badge&logo=openai&logoColor=white"> <img src="https://img.shields.io/badge/Canva-%2300C4CC.svg?&style=for-the-badge&logo=Canva&logoColor=white" />
 
-# Don't just copy, hit the star also😊
+# Don't just copy, hit the star alsoðŸ˜Š
 
 
 
-# Taaza - The website for restaurant.
+# Inalog Silog - The website for restaurant.
 This include front end design and backend code for a restaurant based website
 
 This pack comes under Creative Commons Attribution-NonCommercial license (CC BY-NC). 
 
 ~Work by Sethu Satheesh
   
-  ©Sethu    Reach me at [Instagram](https://www.instagram.com/whxite.exe/)
+  Â©Sethu    Reach me at [Instagram](https://www.instagram.com/whxite.exe/)
 

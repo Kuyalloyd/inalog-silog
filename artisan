@@ -1,0 +1,15 @@
+#!/usr/bin/env php
+<?php
+
+declare(strict_types=1);
+
+$laravelRoot = __DIR__ . DIRECTORY_SEPARATOR . 'laravel-react';
+$artisanPath = $laravelRoot . DIRECTORY_SEPARATOR . 'artisan';
+
+if (!is_file($artisanPath)) {
+    fwrite(STDERR, "Laravel artisan not found at: {$artisanPath}\n");
+    exit(1);
+}
+
+chdir($laravelRoot);
+require $artisanPath;
