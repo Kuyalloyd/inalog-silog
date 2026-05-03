@@ -2,7 +2,7 @@
   "name": "inalog-silog-root",
   "private": true,
   "scripts": {
-    "build": "npm --prefix laravel-react run build",
+    "build": "npm --prefix laravel-react run build:vercel",
     "dev": "npm --prefix laravel-react run dev"
   }
 }
